@@ -1,0 +1,14 @@
+{
+  "situation": {
+    "label": "Situation",
+    "framing": "This card describes the situation as it is."
+  },
+  "obstacle": {
+    "label": "Obstacle",
+    "framing": "This card names what is getting in the way."
+  },
+  "advice": {
+    "label": "Advice",
+    "framing": "This card offers a way forward."
+  }
+}

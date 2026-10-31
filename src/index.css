@@ -1,0 +1,474 @@
+@import "tailwindcss";
+
+/*
+  Design tokens. Tailwind v4 turns each --color-* into utilities like
+  bg-velvet-900 or text-gold-400, so changing a value here re-themes the app.
+  Theme: midnight blue-purple velvet, warm gold foil, cream text.
+*/
+@theme {
+  --color-velvet-950: #0a0717;
+  --color-velvet-900: #181036;
+  --color-velvet-800: #221748;
+  --color-velvet-700: #2f1f5e;
+  --color-velvet-600: #42307c;
+  --color-velvet-500: #5a449c;
+
+  --color-gold-200: #f6e6b8;
+  --color-gold-300: #ecd08a;
+  --color-gold-400: #ddb663;
+  --color-gold-500: #c99a45;
+  --color-gold-600: #9c7330;
+
+  --color-cream-100: #f7ece0;
+  --color-cream-300: #e2c9b5;
+  --color-cream-500: #bc9a8c;
+
+  /*
+    Titles: engraved spellbook capitals. Vietnamese titles use the matching small
+    capitals (font-display-vn), because Cinzel has no Vietnamese accents.
+    Script: the romantic copperplate that sweeps through the titles.
+  */
+  --font-display: "Cinzel Decorative", "Playfair Display SC", serif;
+  --font-display-vn: "Playfair Display SC", serif;
+  --font-script: "Pinyon Script", cursive;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+html {
+  /* Tells the browser to draw native controls (date pickers, selects) in dark mode. */
+  color-scheme: dark;
+  /* Stops iPhone enlarging text when the phone is turned sideways. */
+  -webkit-text-size-adjust: 100%;
+}
+
+/*
+  Keyboard focus: a clear gold ring around whatever is selected. :focus-visible
+  shows it for keyboard and switch-control users only, never on a finger tap.
+  (This sits outside Tailwind's layers, so it wins over any utility that hides outlines.)
+*/
+:where(button, a, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-gold-300);
+  outline-offset: 3px;
+}
+
+/* Phone touch polish: no grey flash on tap, and no double-tap-to-zoom delay on buttons. */
+button,
+a,
+label {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+body {
+  @apply bg-velvet-900 font-sans text-cream-100 antialiased;
+  min-height: 100dvh;
+}
+
+/*
+  Blue-purple velvet, drawn with layered gradients (no image files):
+  1. a fine grain, from an SVG noise filter;
+  2. soft "crushed" mottling, from a second, much larger-scale noise;
+  3. a very faint weave;
+  4. a violet sheen where light catches the pile, and a deeper blue glow below;
+  5. a dark vignette at the edges.
+  It lives on a fixed full-screen element (see VelvetBackground), which also works on iOS.
+*/
+.velvet-bg {
+  background-color: var(--color-velvet-900);
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.45 0 0 0 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='600'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.012' numOctaves='4' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.7 0 0 0 -0.12'/></filter><rect width='100%' height='100%' filter='url(%23m)'/></svg>"),
+    repeating-linear-gradient(0deg, rgb(0 0 0 / 0.035) 0 1px, transparent 1px 2px),
+    repeating-linear-gradient(90deg, rgb(0 0 0 / 0.035) 0 1px, transparent 1px 2px),
+    radial-gradient(ellipse 85% 55% at 50% 35%, rgb(110 70 190 / 0.45), transparent 72%),
+    radial-gradient(ellipse 70% 50% at 20% 85%, rgb(40 70 170 / 0.35), transparent 70%),
+    radial-gradient(ellipse at center, transparent 40%, rgb(4 2 14 / 0.82) 100%);
+}
+
+/* The script lettering: pale moonlit yellow with a soft glow, like ink catching candlelight. */
+.text-script-glow {
+  color: #f6e7a6;
+  text-shadow: 0 0 18px rgb(246 231 166 / 0.35), 0 2px 3px rgb(0 0 0 / 0.5);
+}
+
+/* Gold foil text: a metallic gradient clipped to the letters. */
+.text-gold-foil {
+  background: linear-gradient(175deg, #fff3c4 0%, #e6c06a 35%, #b8862f 60%, #f2d68a 80%, #9c6a24 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Gold ornaments get a soft shadow so they look raised off the velvet. */
+.gold-relief {
+  filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.55)) drop-shadow(0 0 6px rgb(230 180 90 / 0.15));
+}
+
+/* Collage cut-outs sit on the velvet like paper stickers, with a soft shadow. */
+.collage-cutout {
+  filter: drop-shadow(0 3px 4px rgb(0 0 0 / 0.55));
+}
+
+/* The fan of cards sways while shuffling. */
+@keyframes deck-sway {
+  0%, 100% { transform: none; }
+  25% { transform: rotate(-3deg) translateY(-4px); }
+  50% { transform: rotate(2.5deg) translateY(1px); }
+  75% { transform: rotate(-1.5deg) translateY(-2px); }
+}
+.animate-deck-sway {
+  animation: deck-sway 1100ms ease-in-out both;
+}
+
+/* A soft moonlit glow that breathes around the woman holding the orb. */
+@keyframes orb-glow {
+  0%, 100% { filter: drop-shadow(0 3px 4px rgb(0 0 0 / 0.55)) drop-shadow(0 0 10px rgb(200 190 255 / 0.25)); }
+  50% { filter: drop-shadow(0 3px 4px rgb(0 0 0 / 0.55)) drop-shadow(0 0 24px rgb(210 200 255 / 0.55)); }
+}
+.animate-orb-glow {
+  animation: orb-glow 4.5s ease-in-out infinite;
+}
+
+/* A slow, gentle twinkle for the scattered stars. */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+.animate-twinkle {
+  animation: twinkle 5s ease-in-out infinite;
+}
+
+/*
+  Card flip. The card is a 3D "scene" with two sides back to back:
+  the back faces you, the front is pre-turned 180° so it faces away.
+  Turning the whole card 180° (.is-revealed) swaps which side you see.
+*/
+.card-scene {
+  perspective: 900px;
+}
+.card-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 700ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.card-inner.is-revealed {
+  transform: rotateY(180deg);
+}
+.card-side {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.card-front {
+  transform: rotateY(180deg);
+}
+
+/*
+  Card slot width. Upright phone: three fit side by side (28vw each) and stay short
+  enough to sit under the deck (15% of the screen height).
+  Phone turned sideways (wide but short): the deck and the slots sit side by side
+  instead of stacked, so the cards can be taller and stay on screen.
+*/
+.card-slot-w {
+  width: min(15dvh, 28vw, 7.5rem);
+}
+.deck-w {
+  width: clamp(9rem, 26dvh, 15rem);
+}
+@media (orientation: landscape) and (max-height: 540px) {
+  .card-slot-w {
+    width: min(24dvh, 7.5rem);
+  }
+  .deck-w {
+    width: 30dvh;
+  }
+  .spread-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .spread-row > * {
+    margin-block: 0;
+  }
+  /* A wider page column (app and New reading button), so the deck and three slots fit in one row. */
+  .app-column {
+    max-width: 46rem;
+  }
+}
+
+/* Card back: darker velvet with a faint gold diamond lattice. */
+.card-back-pattern {
+  background-color: var(--color-velvet-800);
+  background-image:
+    repeating-linear-gradient(45deg, rgb(201 154 69 / 0.13) 0 1px, transparent 1px 10px),
+    repeating-linear-gradient(-45deg, rgb(201 154 69 / 0.13) 0 1px, transparent 1px 10px),
+    radial-gradient(ellipse at center, rgb(100 65 180 / 0.55), transparent 75%);
+}
+
+/*
+  Riffle shuffle: the deck splits into two halves that fan out sideways,
+  then fall back together. Each card gets a small extra delay (set inline)
+  so the halves ripple instead of moving as solid blocks.
+*/
+@keyframes riffle-left {
+  0%, 100% { transform: none; }
+  30%, 55% { transform: translateX(-58%) translateY(-4px) rotate(-14deg); }
+}
+@keyframes riffle-right {
+  0%, 100% { transform: none; }
+  30%, 55% { transform: translateX(58%) translateY(-4px) rotate(14deg); }
+}
+.animate-riffle-left {
+  animation: riffle-left 1100ms cubic-bezier(0.45, 0, 0.25, 1) both;
+}
+.animate-riffle-right {
+  animation: riffle-right 1100ms cubic-bezier(0.45, 0, 0.25, 1) both;
+}
+
+/*
+  A drawn card flying from the deck to its slot. --dx / --dy (set in code) are how
+  far the deck is from the slot. The middle keyframe lifts the card above the straight
+  line between them, so it travels along an arc and spins a little as it lands.
+*/
+@keyframes fly-to-slot {
+  0% { opacity: 0.4; transform: translate(var(--dx), var(--dy)) rotate(-24deg) scale(0.55); }
+  55% {
+    opacity: 1;
+    transform: translate(calc(var(--dx) * 0.35), calc(var(--dy) * 0.35 - 70px)) rotate(10deg) scale(0.95);
+  }
+  100% { transform: none; }
+}
+.animate-fly-to-slot {
+  animation: fly-to-slot 700ms cubic-bezier(0.25, 0.8, 0.25, 1) both;
+}
+
+/*
+  Turning a card over yourself. While the card flips, a band of gold light sweeps
+  across its face and a few sparkles burst out from the middle. A reversed card
+  lands upright first, then slowly turns upside down, so you see the reversal happen.
+  The delays let each part start once the flip (700ms) is well under way.
+*/
+@keyframes card-sweep {
+  from { transform: translateX(-120%) skewX(-18deg); }
+  to { transform: translateX(260%) skewX(-18deg); }
+}
+.card-sweep {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 45%;
+  background: linear-gradient(90deg, transparent, rgb(255 232 165 / 0.6), transparent);
+  animation: card-sweep 900ms ease-out 450ms both;
+  pointer-events: none;
+}
+@keyframes sparkle-burst {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.2); }
+  25% { opacity: 1; }
+  100% { opacity: 0; transform: translate(calc(-50% + var(--bx)), calc(-50% + var(--by))) scale(1) rotate(90deg); }
+}
+.sparkle-burst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  animation: sparkle-burst 900ms ease-out 350ms both;
+  pointer-events: none;
+}
+@keyframes reverse-turn {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(180deg); }
+}
+.animate-reverse-turn {
+  animation: reverse-turn 800ms cubic-bezier(0.5, 0, 0.2, 1) 950ms both;
+}
+
+/*
+  Press feedback: tappable things shrink a touch while pressed and spring back
+  (the overshooting curve) when you let go. Colours keep their usual fade.
+*/
+.press {
+  transition:
+    transform 280ms cubic-bezier(0.34, 1.56, 0.64, 1),
+    color 150ms,
+    background-color 150ms,
+    border-color 150ms,
+    opacity 150ms;
+}
+.press:active:not(:disabled) {
+  transform: scale(0.95);
+  transition-duration: 90ms;
+}
+
+/* The main gold buttons: a slow glint of light passes across every few seconds. */
+@keyframes sheen {
+  0% { transform: translateX(-120%); }
+  25%, 100% { transform: translateX(120%); }
+}
+.sheen {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.sheen::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 35%, rgb(255 250 225 / 0.55) 50%, transparent 65%);
+  transform: translateX(-120%);
+  animation: sheen 5s ease-in-out 1.5s infinite;
+  pointer-events: none;
+}
+.sheen:disabled::after {
+  animation: none;
+}
+
+/*
+  The golden halo when all three cards are Major Arcana: a warm glow swells
+  behind the spread twice, then settles to a soft lasting light.
+*/
+@keyframes major-halo {
+  0% { opacity: 0; transform: scale(0.7); }
+  25% { opacity: 1; transform: scale(1.08); }
+  45% { opacity: 0.45; transform: scale(0.95); }
+  65% { opacity: 0.9; transform: scale(1.12); }
+  100% { opacity: 0.45; transform: scale(1); }
+}
+.major-halo {
+  position: absolute;
+  inset: -18% -6%;
+  z-index: -1;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgb(240 200 110 / 0.55), rgb(240 200 110 / 0.15) 45%, transparent 70%);
+  animation: major-halo 2600ms ease-out both;
+  pointer-events: none;
+}
+
+/*
+  Scroll reveal: items start slightly low and transparent, and rise into place
+  when they come into view. The stagger comes from --reveal-delay (set in code).
+*/
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 500ms ease-out, transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+/* The crystal ball topic picker: the ball bobs, and each topic drifts in from the side you swiped. */
+@keyframes orb-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.animate-orb-float {
+  animation: orb-float 4.5s ease-in-out infinite;
+}
+@keyframes orb-from-right {
+  from { opacity: 0; transform: translateX(45%) scale(0.85); filter: blur(4px); }
+}
+@keyframes orb-from-left {
+  from { opacity: 0; transform: translateX(-45%) scale(0.85); filter: blur(4px); }
+}
+.animate-orb-from-right {
+  animation: orb-from-right 380ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.animate-orb-from-left {
+  animation: orb-from-left 380ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+/* A soft white glow behind the words inside the ball, for legibility on the painted glass. */
+.orb-mist {
+  position: absolute;
+  inset: -30% -25%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgb(255 255 255 / 0.75), rgb(255 255 255 / 0.35) 45%, transparent 70%);
+}
+
+/*
+  Choosing a topic: soft wisps of smoke curl up out of the crystal ball while the
+  home screen dissolves and the shuffle page eases in beneath them. --sx / --sy (set
+  in code) are the middle of the glass; each wisp drifts its own way (--px / --py),
+  grows (--ps) and starts a little after the last.
+*/
+.smoke-veil {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  pointer-events: none;
+  overflow: hidden;
+}
+/* A faint lavender glow where the smoke comes from, never a full-screen flash. */
+@keyframes smoke-glow {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.smoke-veil::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--sx) var(--sy), rgb(225 214 255 / 0.32), rgb(225 214 255 / 0.1) 35%, transparent 60%);
+  animation: smoke-glow 2200ms ease-in-out both;
+}
+@keyframes smoke-wisp {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.25) rotate(0deg); }
+  25% { opacity: var(--po, 0.5); }
+  100% { opacity: 0; transform: translate(calc(-50% + var(--px)), calc(-50% + var(--py))) scale(var(--ps)) rotate(var(--pr, 40deg)); }
+}
+.smoke-puff {
+  position: absolute;
+  left: var(--sx);
+  top: var(--sy);
+  width: 26vmax;
+  aspect-ratio: 1.4;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgb(255 255 255 / 0.8), rgb(240 234 255 / 0.35) 45%, transparent 70%);
+  filter: blur(12px);
+  animation: smoke-wisp 2000ms cubic-bezier(0.25, 0.6, 0.35, 1) both;
+}
+
+/* The home screen dissolving into the smoke, and the shuffle page easing in through it. */
+@keyframes dissolve-out {
+  to { opacity: 0; filter: blur(6px); transform: scale(0.97); }
+}
+.animate-dissolve-out {
+  animation: dissolve-out 600ms ease-in both;
+}
+@keyframes ease-in-through-smoke {
+  from { opacity: 0; filter: blur(8px); transform: translateY(14px); }
+}
+.animate-ease-in {
+  animation: ease-in-through-smoke 900ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+/* Content gently rising into place. */
+@keyframes deal-in {
+  from { opacity: 0; transform: translateY(14px); }
+}
+.animate-deal-in {
+  animation: deal-in 400ms ease-out both;
+}
+
+/* Respect the OS "reduce motion" setting: switch off animations and transitions. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

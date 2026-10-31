@@ -1,0 +1,48 @@
+{
+  "greetings": {
+    "self": "Dear one, this message is for you alone.",
+    "career": "Dear one, about the work of your hands and your days:",
+    "relationship": "Dear one, about the bonds that hold your heart:",
+    "family": "Dear one, about the people you call home:"
+  },
+  "situation": "Right now your story is coloured by {a} and {b}.",
+  "obstacle": "{card} sits across your path, asking you to look honestly at {word}.",
+  "essence": {
+    "major": {
+      "upright": "The guidance comes from the great arcana, so trust it: step forward into what is already calling you.",
+      "reversed": "The guidance comes from the great arcana, but it comes softly: before you act, let something old settle inside you."
+    },
+    "wands": {
+      "upright": "Follow the spark. Start before you feel ready, and let your enthusiasm open the door.",
+      "reversed": "Your fire is real, but scattered. Choose one flame and tend it instead of chasing every spark."
+    },
+    "cups": {
+      "upright": "Lead with your heart. Say the tender thing, and let yourself be met.",
+      "reversed": "Your heart needs your own care first. Fill your cup quietly before you pour for anyone else."
+    },
+    "swords": {
+      "upright": "Speak plainly and decide. Clarity is a kindness, to you and to everyone around you.",
+      "reversed": "Your thoughts are louder than the truth. Rest your mind, and the answer will cut through on its own."
+    },
+    "pentacles": {
+      "upright": "Take one steady, practical step. Small and real beats grand and imagined.",
+      "reversed": "Slow down and check the ground beneath you. Security grows from patience, not from pushing."
+    }
+  },
+  "omens": {
+    "major_chapter": "Three great arcana gathered for you: this is a chapter of your life, not a passing moment.",
+    "reversed_blocks": "Several cards turned away from you, so be gentle: what's blocked outside is often waiting inside.",
+    "suits": {
+      "wands": "Fire runs through this spread, so your energy is your greatest ally.",
+      "cups": "Water runs through this spread, so your feelings are the compass.",
+      "swords": "Air runs through this spread, so the right words will change everything.",
+      "pentacles": "Earth runs through this spread, so build slowly and it will last."
+    }
+  },
+  "closings": {
+    "self": "Be as patient with yourself as you would be with someone you love.",
+    "career": "Your work is worth doing well, and you are worth more than your work.",
+    "relationship": "Love grows where it is tended. Tend it, and let it tend you.",
+    "family": "Roots hold even when branches sway. You belong."
+  }
+}

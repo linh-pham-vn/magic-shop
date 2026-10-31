@@ -1,0 +1,22 @@
+{
+  "majorChapter": "All three cards are Major Arcana, which suggests a significant life chapter. Forces larger than day-to-day choices are at work, so give this reading extra weight.",
+  "suits": {
+    "wands": {
+      "theme": "drive",
+      "text": "Wands lead this reading, pointing to drive, ambition and creative fire. Energy and initiative are the main currents here."
+    },
+    "cups": {
+      "theme": "emotions",
+      "text": "Cups lead this reading, pointing to emotions, relationships and matters of the heart. How you feel matters as much as what you do."
+    },
+    "swords": {
+      "theme": "mind",
+      "text": "Swords lead this reading, pointing to thoughts, decisions and communication. Clear thinking and honest words are the key."
+    },
+    "pentacles": {
+      "theme": "material",
+      "text": "Pentacles lead this reading, pointing to material matters, work and security. Practical, steady steps are favoured."
+    }
+  },
+  "reversedBlocks": "Two or more of the cards are reversed, which points to internal blocks or delays. Look inward and be patient before pushing for outward change."
+}

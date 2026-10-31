@@ -1,0 +1,2420 @@
+[
+  {
+    "id": "the-fool",
+    "name": "The Fool",
+    "arcana": "major",
+    "number": 0,
+    "suit": null,
+    "keywords": [
+      "beginnings",
+      "spontaneity",
+      "trust"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Fool invites you to try something new for your own sake, free of other people's expectations. Curiosity and a beginner's mind can reconnect you with who you are.",
+        "reversed": "Reversed, the Fool may show fear holding you back, or a restlessness that keeps you from settling into yourself. A small, grounded experiment can satisfy the urge for change safely."
+      },
+      "career": {
+        "upright": "The Fool invites a fresh start in your work, such as a new role, venture or field. Trust your curiosity and be willing to learn as you go, even without every answer yet.",
+        "reversed": "Reversed, the Fool suggests hesitation, or a leap taken without enough preparation. Check the details before you commit, and notice where fear may be keeping you from a needed start."
+      },
+      "relationship": {
+        "upright": "In love, the Fool brings openness, spontaneity and new beginnings. Approach connection with a light heart and be willing to be pleasantly surprised.",
+        "reversed": "Reversed, the Fool may point to recklessness or a fear of commitment. Ask whether you are rushing in or holding back, and what a more grounded step would look like."
+      },
+      "family": {
+        "upright": "The Fool can signal a new chapter at home, from a move to a new arrival. Meeting change with curiosity rather than worry helps everyone adapt.",
+        "reversed": "Reversed, the Fool may show family plans made too hastily, or someone acting carelessly. A little more thought and communication can prevent avoidable mishaps."
+      }
+    }
+  },
+  {
+    "id": "the-magician",
+    "name": "The Magician",
+    "arcana": "major",
+    "number": 1,
+    "suit": null,
+    "keywords": [
+      "skill",
+      "focus",
+      "manifestation"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Magician reminds you that you already have the tools to shape your own life. Focus your attention on one intention and act on it.",
+        "reversed": "Reversed, the Magician may point to self-doubt or energy scattered across too many things. Reconnect with your strengths before trying to prove anything."
+      },
+      "career": {
+        "upright": "The Magician shows you have the skills and resources to make things happen. It is a good time to take the initiative, present your ideas and turn plans into action.",
+        "reversed": "Reversed, the Magician suggests scattered energy, untapped talent or someone overselling themselves. Focus your efforts and make sure promises, including your own, are realistic."
+      },
+      "relationship": {
+        "upright": "In love, the Magician brings confidence, attraction and clear communication. Saying openly what you want tends to create the connection you are hoping for.",
+        "reversed": "Reversed, the Magician may point to games, mixed messages or charm without substance. Look for consistency between words and actions, in others and in yourself."
+      },
+      "family": {
+        "upright": "The Magician suggests you can be the one who solves problems and gets things moving at home. Your practical skills can make a real difference now.",
+        "reversed": "Reversed, the Magician may show influence being misused within the family, or plans that never quite get started. Clear, honest intentions help rebuild trust and momentum."
+      }
+    }
+  },
+  {
+    "id": "the-high-priestess",
+    "name": "The High Priestess",
+    "arcana": "major",
+    "number": 2,
+    "suit": null,
+    "keywords": [
+      "intuition",
+      "inner knowing",
+      "mystery"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The High Priestess asks you to listen inward and trust what you quietly know. Stillness, journaling or time alone can bring clarity.",
+        "reversed": "Reversed, she may show you ignoring your inner voice or feeling disconnected from yourself. Slow down enough to hear what you are really feeling."
+      },
+      "career": {
+        "upright": "The High Priestess asks you to trust your intuition and gather information quietly. Not everything is visible yet, so observe carefully before you act.",
+        "reversed": "Reversed, the High Priestess suggests ignoring your instincts, or hidden information affecting your work. Listen to what your gut is telling you and look for what is being left unsaid."
+      },
+      "relationship": {
+        "upright": "In love, the High Priestess brings deep understanding, mystery and emotional depth. Let the connection unfold naturally and trust what you sense beneath the surface.",
+        "reversed": "Reversed, she may point to hidden feelings, emotional distance or doubting your own intuition. Gentle honesty can bring what is hidden into the light."
+      },
+      "family": {
+        "upright": "The High Priestess highlights unspoken bonds and intuition within the family. Quiet listening may reveal more than direct questions.",
+        "reversed": "Reversed, she may show family secrets or feelings kept under wraps. Creating a safe space for honest conversation can ease the tension."
+      }
+    }
+  },
+  {
+    "id": "the-empress",
+    "name": "The Empress",
+    "arcana": "major",
+    "number": 3,
+    "suit": null,
+    "keywords": [
+      "nurture",
+      "abundance",
+      "creativity"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Empress encourages you to nurture yourself with the same care you give others. Rest, beauty and creative pleasure restore your energy.",
+        "reversed": "Reversed, the Empress may point to self-neglect or feeling depleted. Small, regular acts of self-care can refill your reserves."
+      },
+      "career": {
+        "upright": "The Empress brings growth, creativity and abundance to your work. Projects you nurture with patience tend to bear fruit, and creative or caring roles are especially favoured.",
+        "reversed": "Reversed, the Empress may suggest a creative block, burnout or neglecting your own needs. Rest and nourishment can restore your productivity."
+      },
+      "relationship": {
+        "upright": "In love, the Empress brings warmth, affection and sensuality. Relationships flourish through care, comfort and simply enjoying each other's presence.",
+        "reversed": "Reversed, the Empress may point to smothering, dependence or giving more than you receive. Restoring the balance between caring for others and caring for yourself helps love grow."
+      },
+      "family": {
+        "upright": "The Empress highlights nurturing, fertility and a warm home. It is a good time to care for loved ones and enjoy family comforts.",
+        "reversed": "Reversed, the Empress may show overprotectiveness, or a caregiver who is running on empty. Sharing the load lets care flow more freely."
+      }
+    }
+  },
+  {
+    "id": "the-emperor",
+    "name": "The Emperor",
+    "arcana": "major",
+    "number": 4,
+    "suit": null,
+    "keywords": [
+      "structure",
+      "authority",
+      "stability"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Emperor supports building structure and discipline in your own life. Clear routines and boundaries help you feel steady and in charge.",
+        "reversed": "Reversed, the Emperor may show you being too rigid with yourself, or lacking direction. Look for structure that supports you rather than confines you."
+      },
+      "career": {
+        "upright": "The Emperor favours structure, leadership and clear goals. Taking responsibility and building solid systems tends to earn respect and lasting results.",
+        "reversed": "Reversed, the Emperor may point to rigid authority, power struggles or a lack of discipline. Look for a balance between control and flexibility."
+      },
+      "relationship": {
+        "upright": "In love, the Emperor brings stability, protection and commitment. A dependable partner or a more settled relationship may be on the horizon.",
+        "reversed": "Reversed, the Emperor may show control, stubbornness or emotional coldness. Softening a little allows strength to feel like support instead of pressure."
+      },
+      "family": {
+        "upright": "The Emperor highlights fathers, leadership and clear boundaries at home. Fair, consistent rules help everyone feel secure.",
+        "reversed": "Reversed, the Emperor may point to heavy-handed authority or conflict over who is in charge. Listening before deciding can ease family tension."
+      }
+    }
+  },
+  {
+    "id": "the-hierophant",
+    "name": "The Hierophant",
+    "arcana": "major",
+    "number": 5,
+    "suit": null,
+    "keywords": [
+      "tradition",
+      "guidance",
+      "shared values"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Hierophant points to learning, practice and values that ground you. A tradition, teacher or spiritual practice may offer meaning now.",
+        "reversed": "Reversed, the Hierophant suggests outgrowing beliefs you were handed. Questioning them can help you find values that are truly your own."
+      },
+      "career": {
+        "upright": "The Hierophant favours established paths, formal training and guidance from mentors. Working within an institution or tradition can serve you well now.",
+        "reversed": "Reversed, the Hierophant suggests questioning the rules or outgrowing a conventional path. Consider whether it is time to do things your own way."
+      },
+      "relationship": {
+        "upright": "In love, the Hierophant supports commitment, shared values and traditional milestones. A relationship may move towards a more formal or public step.",
+        "reversed": "Reversed, the Hierophant may point to clashing values or pressure to follow other people's expectations. Defining your relationship on your own terms can bring relief."
+      },
+      "family": {
+        "upright": "The Hierophant highlights family traditions, rituals and values passed down the generations. Honouring them can strengthen your sense of belonging.",
+        "reversed": "Reversed, the Hierophant may show tension between family expectations and your own beliefs. Respectful dialogue helps bridge the gap."
+      }
+    }
+  },
+  {
+    "id": "the-lovers",
+    "name": "The Lovers",
+    "arcana": "major",
+    "number": 6,
+    "suit": null,
+    "keywords": [
+      "union",
+      "alignment",
+      "choice"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Lovers ask you to align your choices with your values. Acting in harmony with what you believe brings a sense of wholeness.",
+        "reversed": "Reversed, the Lovers may point to an inner conflict between what you want and what you do. Honest reflection can bring the two back together."
+      },
+      "career": {
+        "upright": "The Lovers point to choices that align your work with your values, and to strong partnerships. Decisions made from the heart tend to work out well now.",
+        "reversed": "Reversed, the Lovers suggest a mismatch between your values and your work, or friction with a partner. Clarifying what truly matters can guide your next step."
+      },
+      "relationship": {
+        "upright": "In love, the Lovers bring deep connection, attraction and harmony. A meaningful choice about a relationship may be at hand.",
+        "reversed": "Reversed, the Lovers may point to imbalance, disconnection or a difficult choice. Honest conversation can show whether you are still heading the same way."
+      },
+      "family": {
+        "upright": "The Lovers highlight harmony and meaningful choices within the family. Decisions made together tend to strengthen your bonds.",
+        "reversed": "Reversed, the Lovers may show divided loyalties or disagreements over values. Looking for common ground helps restore harmony."
+      }
+    }
+  },
+  {
+    "id": "the-chariot",
+    "name": "The Chariot",
+    "arcana": "major",
+    "number": 7,
+    "suit": null,
+    "keywords": [
+      "willpower",
+      "direction",
+      "momentum"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Chariot brings willpower and a clear sense of direction. Focused effort can carry you past self-doubt toward a personal goal.",
+        "reversed": "Reversed, the Chariot suggests feeling pulled in different directions or losing motivation. Choose one direction and take one step."
+      },
+      "career": {
+        "upright": "The Chariot brings drive, determination and forward momentum. Focus your energy and you can overcome obstacles and reach your goals.",
+        "reversed": "Reversed, the Chariot suggests a scattered direction or a sense of losing control. Pause to set a clear course before pushing ahead."
+      },
+      "relationship": {
+        "upright": "In love, the Chariot shows a relationship moving forward with purpose. Working towards shared goals tends to bring you closer.",
+        "reversed": "Reversed, the Chariot may point to power struggles or pulling in different directions. Agreeing on where you are going together can ease the strain."
+      },
+      "family": {
+        "upright": "The Chariot highlights progress, movement or a family goal being reached. Coordinated effort helps everyone move forward together.",
+        "reversed": "Reversed, the Chariot may show family members pulling in different directions. A shared plan can bring things back on track."
+      }
+    }
+  },
+  {
+    "id": "strength",
+    "name": "Strength",
+    "arcana": "major",
+    "number": 8,
+    "suit": null,
+    "keywords": [
+      "courage",
+      "patience",
+      "gentle power"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "Strength speaks of inner courage, patience and gentle self-control. Treating yourself kindly is a real source of power now.",
+        "reversed": "Reversed, Strength may show self-doubt or being too hard on yourself. Compassion toward your own struggles can restore your confidence."
+      },
+      "career": {
+        "upright": "Strength favours quiet confidence, patience and resilience at work. Steady persistence and calm leadership tend to win over force.",
+        "reversed": "Reversed, Strength suggests self-doubt or frustration getting the upper hand. Reconnecting with your inner resources can restore your confidence."
+      },
+      "relationship": {
+        "upright": "In love, Strength brings compassion, patience and a deep, steady bond. Gentle understanding helps the relationship weather any storm.",
+        "reversed": "Reversed, Strength may point to insecurity or emotions running high. Treating yourself and your partner with kindness helps rebuild balance."
+      },
+      "family": {
+        "upright": "Strength highlights your ability to support the family with calm and courage. Patience through difficult moments strengthens everyone.",
+        "reversed": "Reversed, Strength may show tempers fraying or someone feeling worn down. Small acts of care and some rest can restore family harmony."
+      }
+    }
+  },
+  {
+    "id": "the-hermit",
+    "name": "The Hermit",
+    "arcana": "major",
+    "number": 9,
+    "suit": null,
+    "keywords": [
+      "reflection",
+      "solitude",
+      "inner guidance"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Hermit invites solitude and reflection. Time alone can help you understand what you truly need.",
+        "reversed": "Reversed, the Hermit may point to isolation that no longer serves you. Reaching out can balance reflection with connection."
+      },
+      "career": {
+        "upright": "The Hermit favours reflection, study and working independently. Stepping back to consider your direction can lead to deeper insight.",
+        "reversed": "Reversed, the Hermit suggests isolation or avoiding input you need. Reaching out for guidance can help you move forward."
+      },
+      "relationship": {
+        "upright": "In love, the Hermit suggests a time for introspection or quiet, meaningful closeness. Understanding yourself better can improve your relationships.",
+        "reversed": "Reversed, the Hermit may point to loneliness or withdrawing from a partner. Letting someone in can ease the sense of distance."
+      },
+      "family": {
+        "upright": "The Hermit highlights the need for personal space within family life. Time alone can help you return with a fresh perspective.",
+        "reversed": "Reversed, the Hermit may show someone cut off from the rest of the family. A gentle invitation to reconnect can make a real difference."
+      }
+    }
+  },
+  {
+    "id": "wheel-of-fortune",
+    "name": "Wheel of Fortune",
+    "arcana": "major",
+    "number": 10,
+    "suit": null,
+    "keywords": [
+      "cycles",
+      "turning point",
+      "timing"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Wheel of Fortune signals a turning point in your personal story. Stay open, as change may bring unexpected growth.",
+        "reversed": "Reversed, the Wheel suggests repeating patterns or a sense of being stuck. Noticing the cycle is the first step to changing it."
+      },
+      "career": {
+        "upright": "The Wheel of Fortune signals a turning point and new opportunities at work. Stay flexible and ready to act when the timing is right.",
+        "reversed": "Reversed, the Wheel suggests delays or a setback in the current cycle. Patience and adaptability help you ride it out until things turn again."
+      },
+      "relationship": {
+        "upright": "In love, the Wheel brings a shift, a new chapter or a fateful meeting. Embrace the change with an open heart.",
+        "reversed": "Reversed, the Wheel may point to repeating patterns or unwelcome change. Noticing the cycle is the first step to changing it."
+      },
+      "family": {
+        "upright": "The Wheel highlights changing circumstances and a fresh chapter for the family. Going with the flow helps everyone adapt.",
+        "reversed": "Reversed, the Wheel may show disruptions or a difficult phase at home. Remember that cycles turn, and this phase will pass."
+      }
+    }
+  },
+  {
+    "id": "justice",
+    "name": "Justice",
+    "arcana": "major",
+    "number": 11,
+    "suit": null,
+    "keywords": [
+      "fairness",
+      "truth",
+      "consequences"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "Justice asks for honesty with yourself and responsibility for your choices. Seeing your situation clearly helps you act with integrity.",
+        "reversed": "Reversed, Justice may point to self-blame or avoiding an uncomfortable truth. Being fair to yourself includes both accountability and forgiveness."
+      },
+      "career": {
+        "upright": "Justice favours fairness, accountability and clear agreements. Decisions made with integrity tend to bring balanced results.",
+        "reversed": "Reversed, Justice suggests unfairness, avoided responsibility or an imbalanced deal. Review agreements carefully and stand up for what is right."
+      },
+      "relationship": {
+        "upright": "In love, Justice brings honesty, balance and mutual respect. Relationships thrive when both people feel heard and fairly treated.",
+        "reversed": "Reversed, Justice may point to imbalance or unresolved grievances. Owning your part and addressing issues openly helps restore trust."
+      },
+      "family": {
+        "upright": "Justice highlights fair decisions and shared responsibilities in the family. Clear, balanced choices help everyone feel respected.",
+        "reversed": "Reversed, Justice may show a sense of unfairness or old disputes resurfacing. Calm, honest talk can bring resolution."
+      }
+    }
+  },
+  {
+    "id": "the-hanged-man",
+    "name": "The Hanged Man",
+    "arcana": "major",
+    "number": 12,
+    "suit": null,
+    "keywords": [
+      "pause",
+      "surrender",
+      "new perspective"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Hanged Man invites a pause and a new perspective on yourself. Letting go of the need to control everything can bring insight.",
+        "reversed": "Reversed, the Hanged Man suggests feeling stuck, or resisting a pause you need. Allow yourself to rest without guilt."
+      },
+      "career": {
+        "upright": "The Hanged Man asks you to pause and see your work from a new angle. A period of waiting can lead to a valuable shift in perspective.",
+        "reversed": "Reversed, the Hanged Man suggests stalling, indecision or resisting a needed change. Let go of what isn't working and choose a direction."
+      },
+      "relationship": {
+        "upright": "In love, the Hanged Man brings a time for patience, surrender and fresh perspective. Stepping back can reveal what the relationship needs.",
+        "reversed": "Reversed, the Hanged Man may point to feeling stuck, or making sacrifices that aren't returned. Speak up about what you need in order to move forward."
+      },
+      "family": {
+        "upright": "The Hanged Man highlights patience and seeing family matters from other people's viewpoints. Letting go of control can ease tensions.",
+        "reversed": "Reversed, the Hanged Man may show a stalemate, or someone quietly sacrificing too much. Honest conversation can break the deadlock."
+      }
+    }
+  },
+  {
+    "id": "death",
+    "name": "Death",
+    "arcana": "major",
+    "number": 13,
+    "suit": null,
+    "keywords": [
+      "endings",
+      "transformation",
+      "release"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "Death marks an inner transformation, never a literal ending. Letting go of an old identity or habit makes room for who you are becoming.",
+        "reversed": "Reversed, Death may show resistance to a change you have already outgrown. Gentle acceptance can ease the transition."
+      },
+      "career": {
+        "upright": "Death marks the end of one phase of work and the start of another, never a literal ending. Letting go of what has run its course frees you for new growth.",
+        "reversed": "Reversed, Death suggests resisting a necessary change or clinging to a role that no longer fits. Accepting the ending can open the way forward."
+      },
+      "relationship": {
+        "upright": "In love, Death brings transformation, closing old chapters and renewing the bond. Releasing past patterns can make space for something deeper.",
+        "reversed": "Reversed, Death may point to fear of change, or holding on to something that is already over. Gentle acceptance can bring relief."
+      },
+      "family": {
+        "upright": "Death highlights a transition in family life, such as roles changing or children growing up. Embracing the change helps everyone move on.",
+        "reversed": "Reversed, Death may show resistance to changes in the family that can't be avoided. Talking openly about what is ending eases the transition."
+      }
+    }
+  },
+  {
+    "id": "temperance",
+    "name": "Temperance",
+    "arcana": "major",
+    "number": 14,
+    "suit": null,
+    "keywords": [
+      "balance",
+      "moderation",
+      "patience"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "Temperance encourages balance, moderation and patience with yourself. Steady, healthy rhythms help you feel whole.",
+        "reversed": "Reversed, Temperance may point to extremes or imbalance in your habits. Small adjustments can restore a calmer rhythm."
+      },
+      "career": {
+        "upright": "Temperance favours balance, patience and blending skills or people well. A steady, moderate approach brings lasting progress.",
+        "reversed": "Reversed, Temperance suggests imbalance, overwork or clashing priorities. Slow down and restore a sustainable rhythm."
+      },
+      "relationship": {
+        "upright": "In love, Temperance brings harmony, compromise and gentle healing. Small, patient efforts help the relationship flow.",
+        "reversed": "Reversed, Temperance may point to extremes or a lack of give and take. Finding the middle ground can bring calm back."
+      },
+      "family": {
+        "upright": "Temperance highlights harmony and a good balance at home. Patience and moderation help everyone get along.",
+        "reversed": "Reversed, Temperance may show friction or an uneven share of family duties. Rebalancing responsibilities can ease the strain."
+      }
+    }
+  },
+  {
+    "id": "the-devil",
+    "name": "The Devil",
+    "arcana": "major",
+    "number": 15,
+    "suit": null,
+    "keywords": [
+      "attachment",
+      "temptation",
+      "restriction"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Devil highlights habits, attachments or beliefs that keep you stuck. Naming what holds you is the first step to freedom.",
+        "reversed": "Reversed, the Devil suggests you are beginning to break free from an old pattern. Keep choosing what genuinely serves you."
+      },
+      "career": {
+        "upright": "The Devil points to ambition and material pressure, or feeling tied to a job by money or habit. Notice what truly holds you in place and whether it still serves you.",
+        "reversed": "Reversed, the Devil suggests breaking free from a draining situation or an unhealthy work habit. You may be ready to reclaim your time and energy."
+      },
+      "relationship": {
+        "upright": "In love, the Devil brings intense attraction but also the risk of jealousy, dependence or control. Enjoy the passion while protecting your freedom.",
+        "reversed": "Reversed, the Devil may show you releasing an unhealthy pattern or attachment. Honest boundaries help you move towards a freer connection."
+      },
+      "family": {
+        "upright": "The Devil highlights family patterns or obligations that feel binding. Naming these patterns is the first step to changing them.",
+        "reversed": "Reversed, the Devil may show you loosening old family ties that held you back. Kind but firm boundaries bring relief."
+      }
+    }
+  },
+  {
+    "id": "the-tower",
+    "name": "The Tower",
+    "arcana": "major",
+    "number": 16,
+    "suit": null,
+    "keywords": [
+      "upheaval",
+      "revelation",
+      "sudden change"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Tower can shake up how you see yourself through a sudden realisation. Though unsettling, it clears space for a truer foundation.",
+        "reversed": "Reversed, the Tower may show you avoiding a change you know is coming. Facing it gently now can soften the impact."
+      },
+      "career": {
+        "upright": "The Tower signals sudden change that shakes up your work, such as a surprise announcement or restructure. Though unsettling, it can clear the way for something more solid.",
+        "reversed": "Reversed, the Tower suggests putting off a change that can't be avoided, or a smaller disruption. Facing it early can soften the impact."
+      },
+      "relationship": {
+        "upright": "In love, the Tower can bring revelations or unexpected events that shake things up. Facing the truth together can lead to a more honest bond.",
+        "reversed": "Reversed, the Tower may point to tension you have been avoiding, or a crisis narrowly averted. Addressing issues now prevents a larger upheaval."
+      },
+      "family": {
+        "upright": "The Tower highlights an unexpected shake-up in family life. Staying calm and supportive helps everyone rebuild.",
+        "reversed": "Reversed, the Tower may show family tensions simmering below the surface. Gentle honesty now can prevent a bigger rupture."
+      }
+    }
+  },
+  {
+    "id": "the-star",
+    "name": "The Star",
+    "arcana": "major",
+    "number": 17,
+    "suit": null,
+    "keywords": [
+      "hope",
+      "renewal",
+      "inspiration"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Star brings hope, healing and renewed faith in yourself. It is a good time to dream again and care for your spirit.",
+        "reversed": "Reversed, the Star may point to discouragement or self-doubt. Small acts of hope and kindness toward yourself can rekindle your light."
+      },
+      "career": {
+        "upright": "The Star brings hope, inspiration and renewed confidence in your path. It is a good time to follow your vision and let your talents shine.",
+        "reversed": "Reversed, the Star suggests discouragement or losing sight of your goals. Small steps and self-care can restore your faith."
+      },
+      "relationship": {
+        "upright": "In love, the Star brings healing, hope and sincere connection. Openness and optimism can attract new love or renew what you have.",
+        "reversed": "Reversed, the Star may point to doubt or disappointment in love. Be gentle with yourself and remember what you deserve."
+      },
+      "family": {
+        "upright": "The Star highlights renewal and hope within the family. Encouraging one another brings a welcome lightness.",
+        "reversed": "Reversed, the Star may show a family member feeling discouraged. Patient support and kind words can lift their spirits."
+      }
+    }
+  },
+  {
+    "id": "the-moon",
+    "name": "The Moon",
+    "arcana": "major",
+    "number": 18,
+    "suit": null,
+    "keywords": [
+      "uncertainty",
+      "illusion",
+      "dreams"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Moon suggests confusion, vivid feelings or fears rising to the surface. Be patient with yourself and avoid big decisions until things feel clearer.",
+        "reversed": "Reversed, the Moon suggests anxieties easing and clarity returning. Trust what you can now see more clearly."
+      },
+      "career": {
+        "upright": "The Moon suggests uncertainty or incomplete information at work. Trust your intuition, but verify the facts before making big decisions.",
+        "reversed": "Reversed, the Moon suggests confusion lifting and the truth coming out. Things are likely to become clearer, helping you move with more confidence."
+      },
+      "relationship": {
+        "upright": "In love, the Moon brings strong emotions, dreams and possible misunderstandings. Gentle honesty helps separate fears from reality.",
+        "reversed": "Reversed, the Moon may show hidden matters coming to light or anxieties easing. Clarity can bring a calmer, more honest connection."
+      },
+      "family": {
+        "upright": "The Moon highlights unspoken feelings or uncertainty in the family. Patience and open conversation can clear the fog.",
+        "reversed": "Reversed, the Moon may show family misunderstandings starting to resolve. Speaking openly about worries helps everyone feel more secure."
+      }
+    }
+  },
+  {
+    "id": "the-sun",
+    "name": "The Sun",
+    "arcana": "major",
+    "number": 19,
+    "suit": null,
+    "keywords": [
+      "joy",
+      "success",
+      "vitality"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Sun brings joy, vitality and confidence in who you are. Let yourself enjoy life and be seen.",
+        "reversed": "Reversed, the Sun may show your light temporarily dimmed. Simple pleasures and time outdoors can lift your spirits."
+      },
+      "career": {
+        "upright": "The Sun brings success, recognition and confidence in your work. Your efforts are likely to shine and be noticed.",
+        "reversed": "Reversed, the Sun suggests success delayed or confidence dimmed for a while. Keep going, as brighter days are likely ahead."
+      },
+      "relationship": {
+        "upright": "In love, the Sun brings joy, warmth and happiness. Relationships flourish with openness and shared fun.",
+        "reversed": "Reversed, the Sun may point to passing clouds or unrealistic expectations. Simple shared pleasures can bring the warmth back."
+      },
+      "family": {
+        "upright": "The Sun highlights happiness, celebrations and children at home. Joy is easy to share now.",
+        "reversed": "Reversed, the Sun may show family plans dampened or a celebration postponed. Focusing on what is going well lifts everyone's mood."
+      }
+    }
+  },
+  {
+    "id": "judgement",
+    "name": "Judgement",
+    "arcana": "major",
+    "number": 20,
+    "suit": null,
+    "keywords": [
+      "awakening",
+      "reckoning",
+      "renewal"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "Judgement brings an awakening, or a call to step into a truer version of yourself. Reflect on what you have learned and answer that call.",
+        "reversed": "Reversed, Judgement may point to harsh self-criticism or fear of change. Forgive yourself and let the past teach you rather than hold you."
+      },
+      "career": {
+        "upright": "Judgement signals a calling, an important review or a fresh start. Reflect on what you have learned and answer the call to step up.",
+        "reversed": "Reversed, Judgement suggests self-doubt or avoiding an important decision. Trust how much you have grown and take the next step."
+      },
+      "relationship": {
+        "upright": "In love, Judgement brings renewal, forgiveness and honest reassessment. A relationship may be revived or reach a new understanding.",
+        "reversed": "Reversed, Judgement may point to harsh self-criticism or reluctance to let go of the past. Forgiveness, including of yourself, opens the way."
+      },
+      "family": {
+        "upright": "Judgement highlights reconciliation and reflection within the family. Forgiveness can heal old wounds.",
+        "reversed": "Reversed, Judgement may show old grievances blocking family harmony. Letting go of blame can create a fresh start."
+      }
+    }
+  },
+  {
+    "id": "the-world",
+    "name": "The World",
+    "arcana": "major",
+    "number": 21,
+    "suit": null,
+    "keywords": [
+      "completion",
+      "integration",
+      "fulfilment"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The World marks a sense of wholeness and completion in your personal journey. Celebrate how far you have come.",
+        "reversed": "Reversed, the World suggests something unfinished within you. Gentle follow-through can bring the closure you need."
+      },
+      "career": {
+        "upright": "The World marks completion, achievement and new horizons in your work. Celebrate what you have accomplished and prepare for the next stage.",
+        "reversed": "Reversed, the World suggests unfinished business or a goal just out of reach. Tying up loose ends will help you move forward."
+      },
+      "relationship": {
+        "upright": "In love, the World brings fulfilment, wholeness and a meaningful milestone. The relationship may reach a new level of maturity.",
+        "reversed": "Reversed, the World may point to a lack of closure or a feeling that something is missing. Addressing what remains unresolved brings peace."
+      },
+      "family": {
+        "upright": "The World highlights family milestones and a sense of completion. Celebrate what you have achieved together.",
+        "reversed": "Reversed, the World may show family plans not quite finished. Patience and follow-through will bring things to a close."
+      }
+    }
+  },
+  {
+    "id": "ace-of-wands",
+    "name": "Ace of Wands",
+    "arcana": "minor",
+    "number": 1,
+    "suit": "wands",
+    "keywords": [
+      "inspiration",
+      "new venture",
+      "spark"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Ace of Wands brings a spark of inspiration and fresh energy for yourself. Follow the idea or passion that excites you.",
+        "reversed": "Reversed, the Ace of Wands suggests low motivation, or an idea that won't take off. Rest, then try again with a smaller first step."
+      },
+      "career": {
+        "upright": "The Ace of Wands brings a spark of inspiration for a new project, role or venture. Act on the idea while the energy is fresh, as early momentum can carry it far.",
+        "reversed": "Reversed, the Ace of Wands suggests a promising idea that hasn't taken off, or motivation that keeps fading. Clarify what you really want before forcing a start."
+      },
+      "relationship": {
+        "upright": "In love, the Ace of Wands brings new attraction, excitement and passion. A fresh spark may appear, or an existing bond may feel newly alive.",
+        "reversed": "Reversed, the Ace of Wands may point to mismatched enthusiasm or a spark that fizzles quickly. Notice whether the interest is truly mutual before investing more."
+      },
+      "family": {
+        "upright": "The Ace of Wands can bring a burst of energy to family life, such as a new shared project or happy news. Enthusiasm now can get everyone moving together.",
+        "reversed": "Reversed, the Ace of Wands may show family plans that stall before they begin. A small, concrete first step can rekindle the energy."
+      }
+    }
+  },
+  {
+    "id": "two-of-wands",
+    "name": "Two of Wands",
+    "arcana": "minor",
+    "number": 2,
+    "suit": "wands",
+    "keywords": [
+      "planning",
+      "future vision",
+      "decisions"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Two of Wands invites you to think about where you want your life to go. Planning your next personal chapter brings a sense of purpose.",
+        "reversed": "Reversed, the Two of Wands suggests fear of stepping beyond your comfort zone. One small step can make the future feel less daunting."
+      },
+      "career": {
+        "upright": "The Two of Wands shows you looking ahead and planning your next move. It favours setting long-term goals and weighing your options for growth.",
+        "reversed": "Reversed, the Two of Wands suggests fear of leaving your comfort zone, or plans that stay on paper. Take one step that turns your vision into action."
+      },
+      "relationship": {
+        "upright": "In love, the Two of Wands brings thoughts about the future and where a relationship is heading. It is a good time to talk about shared plans.",
+        "reversed": "Reversed, the Two of Wands may point to uncertainty about the future or wanting different things. An honest conversation helps you see whether your paths align."
+      },
+      "family": {
+        "upright": "The Two of Wands highlights family planning, such as a move, a trip or a major purchase. Thinking ahead together sets everyone up well.",
+        "reversed": "Reversed, the Two of Wands may show hesitation over family decisions, or plans that keep being postponed. Agreeing on a timeline helps things move."
+      }
+    }
+  },
+  {
+    "id": "three-of-wands",
+    "name": "Three of Wands",
+    "arcana": "minor",
+    "number": 3,
+    "suit": "wands",
+    "keywords": [
+      "expansion",
+      "foresight",
+      "progress"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Three of Wands shows growth and wider horizons opening for you. Your efforts to grow are beginning to pay off.",
+        "reversed": "Reversed, the Three of Wands suggests frustration that progress feels slow. Be patient with yourself and adjust your plans if needed."
+      },
+      "career": {
+        "upright": "The Three of Wands shows your efforts beginning to pay off and new horizons opening. Opportunities further afield, such as work abroad or wider markets, are favoured.",
+        "reversed": "Reversed, the Three of Wands suggests delays or plans that need adjusting. Patience and a clearer strategy help you get back on course."
+      },
+      "relationship": {
+        "upright": "In love, the Three of Wands brings growth and a sense of looking forward together. Long-distance ties or travel may also feature.",
+        "reversed": "Reversed, the Three of Wands may point to frustration that a relationship isn't progressing as hoped. Talk about expectations rather than waiting in silence."
+      },
+      "family": {
+        "upright": "The Three of Wands highlights family growth and widening horizons. Plans that have been in motion are likely to start showing results.",
+        "reversed": "Reversed, the Three of Wands may show setbacks in family plans, or relatives feeling far away. Staying flexible helps everyone adapt."
+      }
+    }
+  },
+  {
+    "id": "four-of-wands",
+    "name": "Four of Wands",
+    "arcana": "minor",
+    "number": 4,
+    "suit": "wands",
+    "keywords": [
+      "celebration",
+      "home",
+      "milestone"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Four of Wands invites you to celebrate a personal milestone. Feeling at home in yourself is worth honouring.",
+        "reversed": "Reversed, the Four of Wands may point to restlessness or not feeling settled. Create small moments of comfort and belonging."
+      },
+      "career": {
+        "upright": "The Four of Wands brings celebration and a milestone worth marking at work. A completed project or a team achievement deserves recognition.",
+        "reversed": "Reversed, the Four of Wands suggests a lack of harmony in your team or a celebration delayed. Focus on rebuilding a sense of shared purpose."
+      },
+      "relationship": {
+        "upright": "In love, the Four of Wands brings happiness, stability and joyful milestones, such as moving in together or an engagement. It is a time to celebrate your bond.",
+        "reversed": "Reversed, the Four of Wands may point to tension around commitment, or plans that don't quite come together. Focus on the foundations rather than the occasion."
+      },
+      "family": {
+        "upright": "The Four of Wands is a card of homecoming, gatherings and family celebrations. Home feels welcoming and secure.",
+        "reversed": "Reversed, the Four of Wands may show friction at family gatherings, or a home that doesn't feel settled. Small efforts to restore harmony go a long way."
+      }
+    }
+  },
+  {
+    "id": "five-of-wands",
+    "name": "Five of Wands",
+    "arcana": "minor",
+    "number": 5,
+    "suit": "wands",
+    "keywords": [
+      "competition",
+      "conflict",
+      "friction"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Five of Wands may show inner conflict or competing priorities. Sorting out what truly matters can quiet the noise.",
+        "reversed": "Reversed, the Five of Wands suggests inner tension easing. Choose peace over proving yourself."
+      },
+      "career": {
+        "upright": "The Five of Wands brings competition, debate or clashing ideas at work. Healthy rivalry can sharpen your skills, as long as it doesn't turn into endless conflict.",
+        "reversed": "Reversed, the Five of Wands suggests conflict easing, or tension being avoided rather than resolved. Look for ways to cooperate rather than compete."
+      },
+      "relationship": {
+        "upright": "In love, the Five of Wands may point to bickering or a clash of egos. Treat disagreements as a chance to understand each other rather than to win.",
+        "reversed": "Reversed, the Five of Wands may show arguments calming down, or issues being swept under the rug. Calm, direct talk resolves what silence cannot."
+      },
+      "family": {
+        "upright": "The Five of Wands highlights squabbles and competing opinions in the family. Giving everyone a chance to be heard reduces the noise.",
+        "reversed": "Reversed, the Five of Wands may show family tension settling down. Building on that calm can help you avoid the next round of conflict."
+      }
+    }
+  },
+  {
+    "id": "six-of-wands",
+    "name": "Six of Wands",
+    "arcana": "minor",
+    "number": 6,
+    "suit": "wands",
+    "keywords": [
+      "victory",
+      "recognition",
+      "confidence"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Six of Wands brings confidence and pride in what you have achieved. Let yourself enjoy the recognition you have earned.",
+        "reversed": "Reversed, the Six of Wands may point to depending on other people's approval. Your worth does not hinge on applause."
+      },
+      "career": {
+        "upright": "The Six of Wands brings victory, recognition and public success. Your efforts are likely to be noticed, so step forward and accept the credit you have earned.",
+        "reversed": "Reversed, the Six of Wands suggests recognition delayed, or self-doubt despite real achievements. Value your progress even if others haven't noticed it yet."
+      },
+      "relationship": {
+        "upright": "In love, the Six of Wands brings confidence and pride in your relationship. You may feel proud to be seen together, or win someone's heart.",
+        "reversed": "Reversed, the Six of Wands may point to insecurity or a need for validation in love. Confidence that comes from within will steady the relationship."
+      },
+      "family": {
+        "upright": "The Six of Wands highlights family pride and shared success. Celebrating someone's achievement brings everyone closer.",
+        "reversed": "Reversed, the Six of Wands may show someone feeling overlooked in the family. A little recognition can mean a great deal."
+      }
+    }
+  },
+  {
+    "id": "seven-of-wands",
+    "name": "Seven of Wands",
+    "arcana": "minor",
+    "number": 7,
+    "suit": "wands",
+    "keywords": [
+      "defending",
+      "perseverance",
+      "standing your ground"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Seven of Wands asks you to stand up for your needs and values. Holding your ground builds self-respect.",
+        "reversed": "Reversed, the Seven of Wands suggests feeling worn down by always defending yourself. It is fine to choose which battles matter."
+      },
+      "career": {
+        "upright": "The Seven of Wands shows you defending your position or standing up for your ideas. Hold your ground with confidence, as your perspective is worth protecting.",
+        "reversed": "Reversed, the Seven of Wands suggests feeling overwhelmed or ready to give up under pressure. Choose which battles truly matter and let the rest go."
+      },
+      "relationship": {
+        "upright": "In love, the Seven of Wands may point to protecting your relationship from outside pressure, or standing up for your own needs. Firm boundaries can strengthen the bond.",
+        "reversed": "Reversed, the Seven of Wands may show defensiveness, or exhaustion from constant tension. Lowering your guard a little can invite real understanding."
+      },
+      "family": {
+        "upright": "The Seven of Wands highlights standing up for yourself or a loved one within the family. Holding firm on what matters earns respect.",
+        "reversed": "Reversed, the Seven of Wands may show you feeling worn down by family demands. It is fine to step back and protect your energy."
+      }
+    }
+  },
+  {
+    "id": "eight-of-wands",
+    "name": "Eight of Wands",
+    "arcana": "minor",
+    "number": 8,
+    "suit": "wands",
+    "keywords": [
+      "speed",
+      "movement",
+      "swift news"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Eight of Wands brings swift progress and momentum toward personal goals. Ride the energy while it flows.",
+        "reversed": "Reversed, the Eight of Wands suggests delays, or rushing ahead of yourself. Slow down and pace your energy."
+      },
+      "career": {
+        "upright": "The Eight of Wands brings speed, momentum and swift progress. News, travel or fast-moving opportunities are likely, so be ready to act quickly.",
+        "reversed": "Reversed, the Eight of Wands suggests delays, crossed wires or rushing into mistakes. Slow down enough to check the details."
+      },
+      "relationship": {
+        "upright": "In love, the Eight of Wands brings quick developments, lively messages and rising passion. Things may move faster than you expect.",
+        "reversed": "Reversed, the Eight of Wands may point to mixed signals, delays or moving too fast. Let the relationship find a pace that suits you both."
+      },
+      "family": {
+        "upright": "The Eight of Wands highlights a busy, fast-moving period for the family. Good news or travel plans may arrive quickly.",
+        "reversed": "Reversed, the Eight of Wands may show miscommunication or frustrating delays at home. Clear, simple messages help everyone stay on the same page."
+      }
+    }
+  },
+  {
+    "id": "nine-of-wands",
+    "name": "Nine of Wands",
+    "arcana": "minor",
+    "number": 9,
+    "suit": "wands",
+    "keywords": [
+      "resilience",
+      "persistence",
+      "guardedness"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Nine of Wands shows resilience after a long stretch. You are stronger than you think, so keep protecting your energy.",
+        "reversed": "Reversed, the Nine of Wands may point to exhaustion or feeling guarded. Rest and support can restore you."
+      },
+      "career": {
+        "upright": "The Nine of Wands shows resilience and persistence after a long effort. You are close to the finish line, so keep going while protecting your energy.",
+        "reversed": "Reversed, the Nine of Wands suggests exhaustion, defensiveness or feeling unable to carry on. Rest and support can restore your strength."
+      },
+      "relationship": {
+        "upright": "In love, the Nine of Wands may show caution after past hurts. Protecting your heart is understandable, but don't let old wounds keep good people out.",
+        "reversed": "Reversed, the Nine of Wands may point to emotional fatigue, or walls that have grown too high. Letting someone help you carry the load can bring relief."
+      },
+      "family": {
+        "upright": "The Nine of Wands highlights perseverance through a demanding family period. Your resilience is helping everyone get through.",
+        "reversed": "Reversed, the Nine of Wands may show someone stretched to their limit at home. Sharing responsibilities can prevent burnout."
+      }
+    }
+  },
+  {
+    "id": "ten-of-wands",
+    "name": "Ten of Wands",
+    "arcana": "minor",
+    "number": 10,
+    "suit": "wands",
+    "keywords": [
+      "burden",
+      "overload",
+      "responsibility"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Ten of Wands points to carrying too much on your own. Lightening the load is a form of self-care.",
+        "reversed": "Reversed, the Ten of Wands suggests you are starting to set burdens down. Keep releasing what isn't yours to carry."
+      },
+      "career": {
+        "upright": "The Ten of Wands points to heavy workloads and taking on too much. Look at what you can delegate or drop before the burden wears you down.",
+        "reversed": "Reversed, the Ten of Wands suggests either starting to let go of burdens or straining under them. Asking for help is a sign of strength, not weakness."
+      },
+      "relationship": {
+        "upright": "In love, the Ten of Wands may show one person carrying too much of the relationship. Sharing responsibilities more evenly can restore a sense of lightness.",
+        "reversed": "Reversed, the Ten of Wands may point to releasing pressure, or finally talking about an unfair load. That conversation can bring real relief."
+      },
+      "family": {
+        "upright": "The Ten of Wands highlights heavy family responsibilities resting on your shoulders. Not everything has to be carried by you alone.",
+        "reversed": "Reversed, the Ten of Wands may show you beginning to share family duties more fairly. Keep setting limits so the new balance lasts."
+      }
+    }
+  },
+  {
+    "id": "page-of-wands",
+    "name": "Page of Wands",
+    "arcana": "minor",
+    "number": 11,
+    "suit": "wands",
+    "keywords": [
+      "curiosity",
+      "enthusiasm",
+      "exploration"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Page of Wands brings curiosity and enthusiasm for exploring something new. Let yourself play and learn.",
+        "reversed": "Reversed, the Page of Wands may show enthusiasm scattered in too many directions. Choose one interest and give it time."
+      },
+      "career": {
+        "upright": "The Page of Wands brings curiosity, fresh ideas and enthusiasm for learning. Exploring a new skill or direction can spark exciting possibilities.",
+        "reversed": "Reversed, the Page of Wands suggests scattered ideas, or enthusiasm that fades before anything is finished. Pick one project and see it through."
+      },
+      "relationship": {
+        "upright": "In love, the Page of Wands brings flirtation, playfulness and exciting new interest. Enjoy the adventure of getting to know someone.",
+        "reversed": "Reversed, the Page of Wands may point to immaturity, or interest that comes and goes. Look for consistency before you invest your heart."
+      },
+      "family": {
+        "upright": "The Page of Wands highlights youthful energy in the family, perhaps from a child or a playful new idea. Shared adventures bring everyone together.",
+        "reversed": "Reversed, the Page of Wands may show restlessness or impulsive behaviour at home. Gentle guidance helps channel that energy well."
+      }
+    }
+  },
+  {
+    "id": "knight-of-wands",
+    "name": "Knight of Wands",
+    "arcana": "minor",
+    "number": 12,
+    "suit": "wands",
+    "keywords": [
+      "energy",
+      "adventure",
+      "impulsiveness"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Knight of Wands brings bold energy and a hunger for adventure. Channel it into something that genuinely excites you.",
+        "reversed": "Reversed, the Knight of Wands suggests impatience or the edge of burnout. Balance passion with rest."
+      },
+      "career": {
+        "upright": "The Knight of Wands brings bold action, energy and a drive to make things happen. Move forward with confidence, but plan enough to avoid rushing.",
+        "reversed": "Reversed, the Knight of Wands suggests impatience, reckless decisions or starting things you don't finish. Slow down and think before charging ahead."
+      },
+      "relationship": {
+        "upright": "In love, the Knight of Wands brings passion, adventure and an exciting pursuit. Things may move quickly and feel thrilling.",
+        "reversed": "Reversed, the Knight of Wands may point to restlessness, or someone who loses interest quickly. Make sure excitement is backed by commitment."
+      },
+      "family": {
+        "upright": "The Knight of Wands highlights movement and lively energy at home, such as a trip or a move. Enthusiasm makes change feel like an adventure.",
+        "reversed": "Reversed, the Knight of Wands may show hot tempers or hasty decisions in the family. A pause before reacting keeps the peace."
+      }
+    }
+  },
+  {
+    "id": "queen-of-wands",
+    "name": "Queen of Wands",
+    "arcana": "minor",
+    "number": 13,
+    "suit": "wands",
+    "keywords": [
+      "confidence",
+      "warmth",
+      "determination"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Queen of Wands radiates confidence and warmth. Embrace your own charisma and let yourself shine.",
+        "reversed": "Reversed, the Queen of Wands may point to self-doubt or burnout. Reconnect with whatever lights you up."
+      },
+      "career": {
+        "upright": "The Queen of Wands brings confidence, warmth and magnetic leadership. Your enthusiasm inspires others, so let yourself be seen.",
+        "reversed": "Reversed, the Queen of Wands suggests self-doubt, burnout or jealousy at work. Reconnect with what gives you energy and let go of comparison."
+      },
+      "relationship": {
+        "upright": "In love, the Queen of Wands brings confidence, attraction and warmth. Being boldly yourself is your greatest charm.",
+        "reversed": "Reversed, the Queen of Wands may point to insecurity or demanding behaviour in a relationship. Self-assurance grows when you look after your own needs first."
+      },
+      "family": {
+        "upright": "The Queen of Wands highlights a warm, energetic presence at the heart of the family. Your encouragement helps others shine.",
+        "reversed": "Reversed, the Queen of Wands may show someone stretched thin trying to hold everything together. Delegating can restore that spark."
+      }
+    }
+  },
+  {
+    "id": "king-of-wands",
+    "name": "King of Wands",
+    "arcana": "minor",
+    "number": 14,
+    "suit": "wands",
+    "keywords": [
+      "vision",
+      "leadership",
+      "boldness"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The King of Wands brings vision and the courage to lead your own life. Trust the direction you are choosing.",
+        "reversed": "Reversed, the King of Wands suggests impulsiveness, or pressure to prove yourself. Lead yourself with patience."
+      },
+      "career": {
+        "upright": "The King of Wands brings vision, leadership and an entrepreneurial spirit. It is a good time to lead with purpose and take charge of a bold plan.",
+        "reversed": "Reversed, the King of Wands suggests impulsive decisions, arrogance or unrealistic expectations. Strong leadership includes listening to others."
+      },
+      "relationship": {
+        "upright": "In love, the King of Wands brings passion, loyalty and a confident partner. Shared goals and adventures strengthen the bond.",
+        "reversed": "Reversed, the King of Wands may point to a domineering or impatient dynamic. Respecting each other's pace keeps the relationship balanced."
+      },
+      "family": {
+        "upright": "The King of Wands highlights strong, inspiring leadership in the family. A clear vision helps everyone move forward together.",
+        "reversed": "Reversed, the King of Wands may show someone forcing their will on the family. Inviting other views helps restore harmony."
+      }
+    }
+  },
+  {
+    "id": "ace-of-cups",
+    "name": "Ace of Cups",
+    "arcana": "minor",
+    "number": 1,
+    "suit": "cups",
+    "keywords": [
+      "new feelings",
+      "love",
+      "emotional opening"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Ace of Cups brings emotional renewal and self-love. Open your heart to yourself first.",
+        "reversed": "Reversed, the Ace of Cups suggests blocked or unacknowledged emotions. Let yourself feel what is there."
+      },
+      "career": {
+        "upright": "The Ace of Cups brings emotional fulfilment and creative inspiration at work. Work you genuinely care about, or that helps others, is especially favoured.",
+        "reversed": "Reversed, the Ace of Cups suggests feeling emotionally drained or disconnected from your work. Reflect on what would make it feel meaningful again."
+      },
+      "relationship": {
+        "upright": "In love, the Ace of Cups brings new feelings, deep affection and emotional openness. A new relationship or a renewed bond may be beginning.",
+        "reversed": "Reversed, the Ace of Cups may point to blocked emotions or holding back love. Gently opening your heart, starting with kindness to yourself, makes room for connection."
+      },
+      "family": {
+        "upright": "The Ace of Cups highlights love, compassion and new beginnings in the family, sometimes including a new arrival. Emotional warmth flows easily.",
+        "reversed": "Reversed, the Ace of Cups may show feelings going unexpressed in the family. Small gestures of affection can help emotions flow again."
+      }
+    }
+  },
+  {
+    "id": "two-of-cups",
+    "name": "Two of Cups",
+    "arcana": "minor",
+    "number": 2,
+    "suit": "cups",
+    "keywords": [
+      "partnership",
+      "connection",
+      "mutual attraction"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Two of Cups reflects harmony between your inner self and your outer life. A balance of giving and receiving nourishes you.",
+        "reversed": "Reversed, the Two of Cups may point to feeling out of balance with yourself. Reconnect with your own needs."
+      },
+      "career": {
+        "upright": "The Two of Cups brings a strong partnership or a mutually supportive working relationship. Collaboration built on trust can achieve a great deal now.",
+        "reversed": "Reversed, the Two of Cups suggests a partnership out of balance or a breakdown in communication. Address the imbalance openly and fairly."
+      },
+      "relationship": {
+        "upright": "In love, the Two of Cups brings mutual attraction, harmony and deep connection. It is a classic sign of a meaningful bond between equals.",
+        "reversed": "Reversed, the Two of Cups may point to disconnection, imbalance or a rift. Rebuilding trust starts with listening to each other."
+      },
+      "family": {
+        "upright": "The Two of Cups highlights close, harmonious relationships in the family. Reconciliation and mutual support are favoured.",
+        "reversed": "Reversed, the Two of Cups may show a misunderstanding between family members. A sincere conversation can restore closeness."
+      }
+    }
+  },
+  {
+    "id": "three-of-cups",
+    "name": "Three of Cups",
+    "arcana": "minor",
+    "number": 3,
+    "suit": "cups",
+    "keywords": [
+      "friendship",
+      "celebration",
+      "community"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Three of Cups reminds you that joy and friendship feed your soul. Make time for people who lift you up.",
+        "reversed": "Reversed, the Three of Cups suggests isolation or overindulgence. Seek the kind of connection that truly nourishes you."
+      },
+      "career": {
+        "upright": "The Three of Cups brings teamwork, celebration and supportive colleagues. Success shared with others feels especially good now.",
+        "reversed": "Reversed, the Three of Cups suggests gossip, cliques or socialising at the expense of the work itself. Stay friendly while keeping your focus."
+      },
+      "relationship": {
+        "upright": "In love, the Three of Cups brings fun, friendship and joyful social occasions. Love may grow through friends or shared celebrations.",
+        "reversed": "Reversed, the Three of Cups may point to outside interference, or friends causing tension in a relationship. Protect your bond from too many opinions."
+      },
+      "family": {
+        "upright": "The Three of Cups highlights family gatherings, celebrations and joyful reunions. Shared happiness brings everyone together.",
+        "reversed": "Reversed, the Three of Cups may show someone feeling left out at family events. Including everyone helps restore warmth."
+      }
+    }
+  },
+  {
+    "id": "four-of-cups",
+    "name": "Four of Cups",
+    "arcana": "minor",
+    "number": 4,
+    "suit": "cups",
+    "keywords": [
+      "apathy",
+      "contemplation",
+      "missed offers"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Four of Cups shows apathy or feeling uninspired. Look again at what life is offering you.",
+        "reversed": "Reversed, the Four of Cups suggests renewed interest and motivation. Say yes to what sparks you."
+      },
+      "career": {
+        "upright": "The Four of Cups suggests boredom, apathy or missing opportunities that are right in front of you. Look again at what is being offered before dismissing it.",
+        "reversed": "Reversed, the Four of Cups shows you waking up to new possibilities as motivation returns. It is a good time to say yes to something fresh."
+      },
+      "relationship": {
+        "upright": "In love, the Four of Cups may point to feeling unfulfilled or taking a partner for granted. Appreciating what you have can reignite the connection.",
+        "reversed": "Reversed, the Four of Cups may show you becoming more open to love after a period of withdrawal. Let yourself notice the people reaching out."
+      },
+      "family": {
+        "upright": "The Four of Cups highlights emotional withdrawal, or someone feeling disconnected from the family. Gentle invitations can draw them back in.",
+        "reversed": "Reversed, the Four of Cups may show renewed interest in family life. Welcome it warmly, without dwelling on the distance before."
+      }
+    }
+  },
+  {
+    "id": "five-of-cups",
+    "name": "Five of Cups",
+    "arcana": "minor",
+    "number": 5,
+    "suit": "cups",
+    "keywords": [
+      "loss",
+      "regret",
+      "disappointment"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Five of Cups points to regret or sadness. Acknowledge the loss, then notice what still remains.",
+        "reversed": "Reversed, the Five of Cups suggests healing and moving on. You are ready to look forward again."
+      },
+      "career": {
+        "upright": "The Five of Cups points to disappointment or regret over a setback at work. Acknowledge the loss, then turn towards what is still possible.",
+        "reversed": "Reversed, the Five of Cups suggests moving on from a disappointment and finding renewed hope. Lessons from the setback can guide your next step."
+      },
+      "relationship": {
+        "upright": "In love, the Five of Cups may point to grief, regret or focusing on what went wrong. Give yourself time to heal, and notice the love that is still around you.",
+        "reversed": "Reversed, the Five of Cups may show acceptance and healing after heartbreak. You may be ready to open up to connection again."
+      },
+      "family": {
+        "upright": "The Five of Cups highlights sadness or loss within the family. Grieving together and supporting one another helps everyone heal.",
+        "reversed": "Reversed, the Five of Cups may show the family beginning to recover from a hard time. Forgiveness and hope can grow from here."
+      }
+    }
+  },
+  {
+    "id": "six-of-cups",
+    "name": "Six of Cups",
+    "arcana": "minor",
+    "number": 6,
+    "suit": "cups",
+    "keywords": [
+      "nostalgia",
+      "childhood",
+      "innocence"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Six of Cups brings nostalgia and gentle memories of childhood. Reconnecting with your inner child can be healing.",
+        "reversed": "Reversed, the Six of Cups suggests being stuck in the past. Honour your memories without living in them."
+      },
+      "career": {
+        "upright": "The Six of Cups brings nostalgia, past connections or a return to work you once loved. An old contact or an earlier skill may become useful again.",
+        "reversed": "Reversed, the Six of Cups suggests being stuck in the past or idealising how things used to be. Focus on what you can build now."
+      },
+      "relationship": {
+        "upright": "In love, the Six of Cups brings tenderness, innocence and fond memories. An old flame may reappear, or you may rediscover the early sweetness of your bond.",
+        "reversed": "Reversed, the Six of Cups may point to clinging to the past, or comparing a partner with someone from before. Let the present relationship be itself."
+      },
+      "family": {
+        "upright": "The Six of Cups highlights childhood memories, family history and caring for children. Sharing stories and simple pleasures brings warmth.",
+        "reversed": "Reversed, the Six of Cups may show old family patterns or memories weighing on the present. Honour the past without letting it hold you back."
+      }
+    }
+  },
+  {
+    "id": "seven-of-cups",
+    "name": "Seven of Cups",
+    "arcana": "minor",
+    "number": 7,
+    "suit": "cups",
+    "keywords": [
+      "choices",
+      "fantasy",
+      "wishful thinking"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Seven of Cups presents many options and daydreams. Ground your wishes in clear, practical steps.",
+        "reversed": "Reversed, the Seven of Cups suggests clarity returning. Commit to what genuinely matters to you."
+      },
+      "career": {
+        "upright": "The Seven of Cups presents many options, some more realistic than others. Take time to separate genuine opportunities from wishful thinking.",
+        "reversed": "Reversed, the Seven of Cups suggests clarity returning and a decision becoming easier. Commit to the option that stands up to reality."
+      },
+      "relationship": {
+        "upright": "In love, the Seven of Cups may point to fantasies, too many choices or seeing someone through rose-tinted glasses. Look for what is real and consistent.",
+        "reversed": "Reversed, the Seven of Cups may show illusions fading as you see a relationship more clearly. Clarity, even when sobering, helps you choose well."
+      },
+      "family": {
+        "upright": "The Seven of Cups highlights many possibilities, or differing hopes within the family. Agreeing on priorities helps turn dreams into plans.",
+        "reversed": "Reversed, the Seven of Cups may show the family settling on a clearer direction. That focus helps everyone pull together."
+      }
+    }
+  },
+  {
+    "id": "eight-of-cups",
+    "name": "Eight of Cups",
+    "arcana": "minor",
+    "number": 8,
+    "suit": "cups",
+    "keywords": [
+      "walking away",
+      "deeper meaning",
+      "moving on"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Eight of Cups invites you to walk away from what no longer fulfils you. Seeking deeper meaning is a brave choice.",
+        "reversed": "Reversed, the Eight of Cups suggests hesitating to leave what drains you. Listen to your heart about what you need."
+      },
+      "career": {
+        "upright": "The Eight of Cups suggests walking away from work that no longer fulfils you. Leaving can be the brave choice when you are searching for deeper meaning.",
+        "reversed": "Reversed, the Eight of Cups suggests fear of leaving, or drifting between options without committing. Get clear on what you are truly looking for."
+      },
+      "relationship": {
+        "upright": "In love, the Eight of Cups may point to moving on from a relationship that no longer meets your needs. It can also mean seeking more depth within the one you have.",
+        "reversed": "Reversed, the Eight of Cups may show indecision about staying or going. Listening honestly to your feelings will point the way."
+      },
+      "family": {
+        "upright": "The Eight of Cups highlights stepping back from family roles that no longer fit. Some distance can bring perspective and healthier connections.",
+        "reversed": "Reversed, the Eight of Cups may show you staying out of obligation while feeling unfulfilled. Naming what you need is the first step to change."
+      }
+    }
+  },
+  {
+    "id": "nine-of-cups",
+    "name": "Nine of Cups",
+    "arcana": "minor",
+    "number": 9,
+    "suit": "cups",
+    "keywords": [
+      "contentment",
+      "wishes fulfilled",
+      "satisfaction"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Nine of Cups brings contentment and wishes fulfilled. Enjoy the satisfaction you have created for yourself.",
+        "reversed": "Reversed, the Nine of Cups suggests dissatisfaction despite outward success. Look for what truly fulfils you."
+      },
+      "career": {
+        "upright": "The Nine of Cups brings satisfaction, achievement and wishes fulfilled at work. Enjoy your success and take pride in what you have built.",
+        "reversed": "Reversed, the Nine of Cups suggests success that feels hollow, or complacency setting in. Reconnect with what truly satisfies you."
+      },
+      "relationship": {
+        "upright": "In love, the Nine of Cups brings contentment, happiness and emotional fulfilment. A wish of the heart may come true.",
+        "reversed": "Reversed, the Nine of Cups may point to unmet expectations, or looking for fulfilment only through a partner. Contentment starts within."
+      },
+      "family": {
+        "upright": "The Nine of Cups highlights comfort, abundance and family happiness. Enjoy the good times together.",
+        "reversed": "Reversed, the Nine of Cups may show a sense that something is missing at home despite outward comfort. Talking about real needs brings deeper satisfaction."
+      }
+    }
+  },
+  {
+    "id": "ten-of-cups",
+    "name": "Ten of Cups",
+    "arcana": "minor",
+    "number": 10,
+    "suit": "cups",
+    "keywords": [
+      "harmony",
+      "family happiness",
+      "fulfilment"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Ten of Cups reflects deep emotional fulfilment and peace. Feeling at home in your own life is a gift.",
+        "reversed": "Reversed, the Ten of Cups suggests a gap between your ideals and reality. Gentle honesty with yourself helps bridge it."
+      },
+      "career": {
+        "upright": "The Ten of Cups brings harmony and fulfilment through work that supports the life you want. A good balance between work and home is favoured.",
+        "reversed": "Reversed, the Ten of Cups suggests work putting a strain on your personal life. Realign your priorities with what matters most."
+      },
+      "relationship": {
+        "upright": "In love, the Ten of Cups brings lasting happiness, commitment and emotional security. A shared vision of the future may come together.",
+        "reversed": "Reversed, the Ten of Cups may point to differing visions for the future or a strained household. Honest talk about shared values helps restore harmony."
+      },
+      "family": {
+        "upright": "The Ten of Cups is a card of family happiness, unity and emotional fulfilment. Home feels like a place of love and belonging.",
+        "reversed": "Reversed, the Ten of Cups may show tension or disconnection in family life. Small acts of togetherness can rebuild harmony."
+      }
+    }
+  },
+  {
+    "id": "page-of-cups",
+    "name": "Page of Cups",
+    "arcana": "minor",
+    "number": 11,
+    "suit": "cups",
+    "keywords": [
+      "emotional curiosity",
+      "intuition",
+      "tender message"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Page of Cups brings intuitive messages and creative inspiration. Listen to your dreams and feelings.",
+        "reversed": "Reversed, the Page of Cups suggests heightened sensitivity or a creative block. Be gentle with yourself."
+      },
+      "career": {
+        "upright": "The Page of Cups brings creative inspiration and an intuitive new idea. Be open to unexpected opportunities that speak to your heart.",
+        "reversed": "Reversed, the Page of Cups suggests a creative block, or feelings getting in the way at work. Ground your ideas in practical steps."
+      },
+      "relationship": {
+        "upright": "In love, the Page of Cups brings a sweet message, a tender gesture or a new romantic interest. Let yourself be playful and open.",
+        "reversed": "Reversed, the Page of Cups may point to unrealistic romantic ideals or emotional moodiness. Honest communication keeps things grounded."
+      },
+      "family": {
+        "upright": "The Page of Cups highlights tenderness, imagination and good news in the family, sometimes involving a child. Gentle affection is welcomed.",
+        "reversed": "Reversed, the Page of Cups may show hurt feelings or sensitivity running high at home. Kind words and reassurance help."
+      }
+    }
+  },
+  {
+    "id": "knight-of-cups",
+    "name": "Knight of Cups",
+    "arcana": "minor",
+    "number": 12,
+    "suit": "cups",
+    "keywords": [
+      "romance",
+      "invitation",
+      "following the heart"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Knight of Cups invites you to follow your heart and imagination. Pursue what feels meaningful to you.",
+        "reversed": "Reversed, the Knight of Cups suggests moodiness or unrealistic expectations. Ground your dreams in small actions."
+      },
+      "career": {
+        "upright": "The Knight of Cups brings an inviting offer or a chance to follow your passion. Creative or caring work aligned with your heart is favoured.",
+        "reversed": "Reversed, the Knight of Cups suggests unrealistic plans, or offers that sound better than they are. Check the substance before you commit."
+      },
+      "relationship": {
+        "upright": "In love, the Knight of Cups brings romance, invitations and following your heart. A charming proposal or heartfelt gesture may arrive.",
+        "reversed": "Reversed, the Knight of Cups may point to moodiness, unreliability or promises not kept. Look for actions that match the words."
+      },
+      "family": {
+        "upright": "The Knight of Cups highlights kindness, invitations and emotional openness in the family. A peacemaking gesture can bring people together.",
+        "reversed": "Reversed, the Knight of Cups may show emotional drama, or someone avoiding responsibility at home. Steady reliability calms the waters."
+      }
+    }
+  },
+  {
+    "id": "queen-of-cups",
+    "name": "Queen of Cups",
+    "arcana": "minor",
+    "number": 13,
+    "suit": "cups",
+    "keywords": [
+      "compassion",
+      "emotional depth",
+      "care"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Queen of Cups brings emotional depth and self-compassion. Trust your intuition and care for your feelings.",
+        "reversed": "Reversed, the Queen of Cups suggests emotional overwhelm. Protect your energy with gentle boundaries."
+      },
+      "career": {
+        "upright": "The Queen of Cups brings compassion, emotional intelligence and intuition to your work. Roles involving care, counselling or creativity are favoured.",
+        "reversed": "Reversed, the Queen of Cups suggests emotional overwhelm, or absorbing other people's stress. Protect your energy with healthy boundaries."
+      },
+      "relationship": {
+        "upright": "In love, the Queen of Cups brings deep empathy, emotional security and nurturing love. Being emotionally present strengthens your bond.",
+        "reversed": "Reversed, the Queen of Cups may point to codependence or emotional insecurity. Caring for your own feelings first helps you love more freely."
+      },
+      "family": {
+        "upright": "The Queen of Cups highlights a caring, intuitive presence in the family. Your compassion helps others feel safe and understood.",
+        "reversed": "Reversed, the Queen of Cups may show someone giving so much emotionally that they are depleted. Let others care for you too."
+      }
+    }
+  },
+  {
+    "id": "king-of-cups",
+    "name": "King of Cups",
+    "arcana": "minor",
+    "number": 14,
+    "suit": "cups",
+    "keywords": [
+      "emotional balance",
+      "diplomacy",
+      "calm"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The King of Cups brings emotional balance and calm. You can feel deeply while staying steady.",
+        "reversed": "Reversed, the King of Cups suggests emotions being held in. Expressing them safely brings relief."
+      },
+      "career": {
+        "upright": "The King of Cups brings calm leadership, diplomacy and emotional maturity. Staying composed under pressure earns trust and respect.",
+        "reversed": "Reversed, the King of Cups suggests emotions being suppressed, or used to manipulate. Honest, balanced expression works better than control."
+      },
+      "relationship": {
+        "upright": "In love, the King of Cups brings stability, kindness and a mature, supportive partner. Emotional balance makes the relationship feel safe.",
+        "reversed": "Reversed, the King of Cups may point to emotional distance or moodiness. Opening up rather than holding everything in brings you closer."
+      },
+      "family": {
+        "upright": "The King of Cups highlights a calm, wise presence who keeps the family steady. Patient guidance helps resolve conflicts.",
+        "reversed": "Reversed, the King of Cups may show bottled-up feelings or emotional unpredictability at home. Making space to talk eases the pressure."
+      }
+    }
+  },
+  {
+    "id": "ace-of-swords",
+    "name": "Ace of Swords",
+    "arcana": "minor",
+    "number": 1,
+    "suit": "swords",
+    "keywords": [
+      "clarity",
+      "breakthrough",
+      "truth"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Ace of Swords brings mental clarity and a breakthrough insight about yourself. Trust the truth you now see.",
+        "reversed": "Reversed, the Ace of Swords suggests confusion or overthinking. Simplify and gather your thoughts."
+      },
+      "career": {
+        "upright": "The Ace of Swords brings clarity, a breakthrough idea or a decisive truth at work. Clear thinking and honest communication cut through confusion now.",
+        "reversed": "Reversed, the Ace of Swords suggests muddled thinking, miscommunication or a decision made too hastily. Gather the facts before you act."
+      },
+      "relationship": {
+        "upright": "In love, the Ace of Swords brings honesty and clarity. A frank conversation can clear the air and set the relationship on a truer course.",
+        "reversed": "Reversed, the Ace of Swords may point to harsh words or misunderstandings. Speak your truth with care, and listen as much as you talk."
+      },
+      "family": {
+        "upright": "The Ace of Swords highlights a moment of clarity or an important truth in the family. Speaking plainly and kindly helps everyone understand each other.",
+        "reversed": "Reversed, the Ace of Swords may show confusion or sharp words at home. Pausing before you speak prevents unnecessary hurt."
+      }
+    }
+  },
+  {
+    "id": "two-of-swords",
+    "name": "Two of Swords",
+    "arcana": "minor",
+    "number": 2,
+    "suit": "swords",
+    "keywords": [
+      "indecision",
+      "stalemate",
+      "avoidance"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Two of Swords shows indecision, or avoiding a hard truth about yourself. Give yourself permission to choose.",
+        "reversed": "Reversed, the Two of Swords suggests a personal decision becoming unavoidable. Clarity, even when uncomfortable, brings relief."
+      },
+      "career": {
+        "upright": "The Two of Swords points to a difficult decision or a stalemate at work. Avoiding the choice won't make it go away, so gather what you need to decide.",
+        "reversed": "Reversed, the Two of Swords suggests new information that helps break a deadlock, or feeling overwhelmed by options. Trust yourself to choose."
+      },
+      "relationship": {
+        "upright": "In love, the Two of Swords may show avoidance, mixed feelings or a choice you are reluctant to make. Being honest with yourself is the first step.",
+        "reversed": "Reversed, the Two of Swords may point to a decision that can no longer be postponed. Clarity, even when uncomfortable, brings relief."
+      },
+      "family": {
+        "upright": "The Two of Swords highlights being caught between family members, or avoiding a hard conversation. Staying neutral can only last so long.",
+        "reversed": "Reversed, the Two of Swords may show a family impasse beginning to shift. Open discussion helps everyone move forward."
+      }
+    }
+  },
+  {
+    "id": "three-of-swords",
+    "name": "Three of Swords",
+    "arcana": "minor",
+    "number": 3,
+    "suit": "swords",
+    "keywords": [
+      "heartbreak",
+      "grief",
+      "painful truth"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Three of Swords points to heartache or painful thoughts. Allow yourself time to grieve and heal.",
+        "reversed": "Reversed, the Three of Swords suggests recovery and letting go of old pain. Healing is already underway."
+      },
+      "career": {
+        "upright": "The Three of Swords points to disappointment, criticism or painful news at work. Acknowledge the hurt, then focus on what you can learn from it.",
+        "reversed": "Reversed, the Three of Swords suggests recovering from a setback and letting go of old pain. You are ready to move on with greater wisdom."
+      },
+      "relationship": {
+        "upright": "In love, the Three of Swords may point to heartbreak, hurtful truths or a painful separation. Allow yourself to grieve, as healing begins with honesty.",
+        "reversed": "Reversed, the Three of Swords may show healing after hurt, or releasing pain you have carried for too long. Forgiveness can help you move forward."
+      },
+      "family": {
+        "upright": "The Three of Swords highlights sorrow or hurtful words within the family. Facing the pain together can be the start of healing.",
+        "reversed": "Reversed, the Three of Swords may show the family slowly recovering from a painful time. Patience and kindness help wounds close."
+      }
+    }
+  },
+  {
+    "id": "four-of-swords",
+    "name": "Four of Swords",
+    "arcana": "minor",
+    "number": 4,
+    "suit": "swords",
+    "keywords": [
+      "rest",
+      "recovery",
+      "retreat"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Four of Swords calls for rest and mental recovery. Give your mind and body a true pause.",
+        "reversed": "Reversed, the Four of Swords suggests restlessness or the edge of burnout. Make rest a priority, not a reward."
+      },
+      "career": {
+        "upright": "The Four of Swords calls for rest, recovery and a pause from work pressures. Taking a break now will help you return with fresh energy.",
+        "reversed": "Reversed, the Four of Swords suggests restlessness, burnout or returning to work before you are ready. Make rest a priority, not an afterthought."
+      },
+      "relationship": {
+        "upright": "In love, the Four of Swords may point to needing space or a quieter phase together. Time to recharge can strengthen the relationship.",
+        "reversed": "Reversed, the Four of Swords may show a relationship coming out of a quiet or distant phase. Re-engage gently and at a comfortable pace."
+      },
+      "family": {
+        "upright": "The Four of Swords highlights the need for rest and calm at home. A peaceful break helps everyone recover from stress.",
+        "reversed": "Reversed, the Four of Swords may show family members exhausted or unable to switch off. Make space for real rest together."
+      }
+    }
+  },
+  {
+    "id": "five-of-swords",
+    "name": "Five of Swords",
+    "arcana": "minor",
+    "number": 5,
+    "suit": "swords",
+    "keywords": [
+      "conflict",
+      "winning at a cost",
+      "tension"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Five of Swords may show inner conflict or harsh self-criticism. Choose peace over winning arguments with yourself.",
+        "reversed": "Reversed, the Five of Swords suggests releasing old regrets. Forgive yourself and move forward."
+      },
+      "career": {
+        "upright": "The Five of Swords points to conflict, competition or winning at a cost. Consider whether being right is worth the damage to working relationships.",
+        "reversed": "Reversed, the Five of Swords suggests reconciliation after conflict, or deciding to walk away from a fight. Making peace can serve you better than winning."
+      },
+      "relationship": {
+        "upright": "In love, the Five of Swords may point to arguments where nobody truly wins. Focus on resolving the issue rather than scoring points.",
+        "reversed": "Reversed, the Five of Swords may show a willingness to make amends after conflict. Honest apologies can rebuild trust."
+      },
+      "family": {
+        "upright": "The Five of Swords highlights tension, disputes or someone feeling defeated in the family. Ask what each person truly needs from the situation.",
+        "reversed": "Reversed, the Five of Swords may show family conflict winding down. Letting go of old grudges helps everyone move on."
+      }
+    }
+  },
+  {
+    "id": "six-of-swords",
+    "name": "Six of Swords",
+    "arcana": "minor",
+    "number": 6,
+    "suit": "swords",
+    "keywords": [
+      "transition",
+      "moving on",
+      "calmer waters"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Six of Swords shows a transition toward calmer waters. You are leaving a difficult time behind.",
+        "reversed": "Reversed, the Six of Swords suggests carrying unresolved feelings with you. Address them so you can truly move on."
+      },
+      "career": {
+        "upright": "The Six of Swords brings a transition towards calmer waters at work. Leaving a difficult situation behind, even gradually, brings relief.",
+        "reversed": "Reversed, the Six of Swords suggests resistance to a necessary change, or carrying old problems with you. Deal with unresolved issues so you can truly move on."
+      },
+      "relationship": {
+        "upright": "In love, the Six of Swords may show a relationship moving past a difficult time, or you moving on from one that has ended. Calmer days lie ahead.",
+        "reversed": "Reversed, the Six of Swords may point to feeling stuck in emotional turbulence. Seeking support can help you find a way through."
+      },
+      "family": {
+        "upright": "The Six of Swords highlights a family transition, such as a move or recovering from a hard period. Moving forward together brings peace.",
+        "reversed": "Reversed, the Six of Swords may show the family struggling to leave a difficult situation behind. Patience and support make the transition easier."
+      }
+    }
+  },
+  {
+    "id": "seven-of-swords",
+    "name": "Seven of Swords",
+    "arcana": "minor",
+    "number": 7,
+    "suit": "swords",
+    "keywords": [
+      "strategy",
+      "deception",
+      "going alone"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Seven of Swords asks whether you are being fully honest with yourself. Facing the truth sets you free.",
+        "reversed": "Reversed, the Seven of Swords suggests coming clean with yourself. Honesty brings a sense of lightness."
+      },
+      "career": {
+        "upright": "The Seven of Swords points to strategy, working alone or someone acting behind the scenes. Protect your interests and be mindful of who you trust.",
+        "reversed": "Reversed, the Seven of Swords suggests coming clean, or a hidden matter coming to light. Honesty now prevents bigger problems later."
+      },
+      "relationship": {
+        "upright": "In love, the Seven of Swords may point to secrecy, evasion or something left unsaid. Trust grows when both people are open.",
+        "reversed": "Reversed, the Seven of Swords may show a truth being revealed, or a wish to be more honest. Facing it together can rebuild trust."
+      },
+      "family": {
+        "upright": "The Seven of Swords highlights hidden agendas, or someone avoiding responsibility in the family. Gentle but clear questions can bring things into the open.",
+        "reversed": "Reversed, the Seven of Swords may show secrets surfacing or someone making amends. Openness helps restore trust at home."
+      }
+    }
+  },
+  {
+    "id": "eight-of-swords",
+    "name": "Eight of Swords",
+    "arcana": "minor",
+    "number": 8,
+    "suit": "swords",
+    "keywords": [
+      "restriction",
+      "feeling trapped",
+      "self-limiting beliefs"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Eight of Swords points to feeling trapped by limiting beliefs. You are freer than your fears suggest.",
+        "reversed": "Reversed, the Eight of Swords suggests breaking free from limits you set for yourself. New options appear as you do."
+      },
+      "career": {
+        "upright": "The Eight of Swords points to feeling trapped or limited at work, often more by beliefs than by facts. Question the story you are telling yourself about what is possible.",
+        "reversed": "Reversed, the Eight of Swords suggests breaking free from limits you have placed on yourself. New options appear as your perspective changes."
+      },
+      "relationship": {
+        "upright": "In love, the Eight of Swords may show feeling stuck or powerless in a relationship. Small steps and support from others can help you see a way out.",
+        "reversed": "Reversed, the Eight of Swords may point to releasing fears that held you back in love. You are freer to choose what you truly want."
+      },
+      "family": {
+        "upright": "The Eight of Swords highlights feeling restricted by family expectations. Remember that you have more choices than it may seem.",
+        "reversed": "Reversed, the Eight of Swords may show you stepping out of a limiting family role. Each small step builds confidence."
+      }
+    }
+  },
+  {
+    "id": "nine-of-swords",
+    "name": "Nine of Swords",
+    "arcana": "minor",
+    "number": 9,
+    "suit": "swords",
+    "keywords": [
+      "anxiety",
+      "worry",
+      "sleepless nights"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Nine of Swords points to worry or sleepless nights. Share your fears with someone you trust.",
+        "reversed": "Reversed, the Nine of Swords suggests anxiety beginning to ease. Keep supporting yourself gently."
+      },
+      "career": {
+        "upright": "The Nine of Swords points to worry, stress or sleepless nights over work. Fears often feel bigger at night, so share them with someone you trust.",
+        "reversed": "Reversed, the Nine of Swords suggests anxiety beginning to ease, or a need for support with persistent worry. Help is available and worth reaching for."
+      },
+      "relationship": {
+        "upright": "In love, the Nine of Swords may point to anxiety, guilt or overthinking. Talking openly with your partner can bring your fears down to size.",
+        "reversed": "Reversed, the Nine of Swords may show worries about the relationship starting to lift. Keep communicating so they don't build up again."
+      },
+      "family": {
+        "upright": "The Nine of Swords highlights worry about a family member or a family matter. Sharing your concerns lightens the load.",
+        "reversed": "Reversed, the Nine of Swords may show family stress gradually easing. Rest and reassurance help everyone recover."
+      }
+    }
+  },
+  {
+    "id": "ten-of-swords",
+    "name": "Ten of Swords",
+    "arcana": "minor",
+    "number": 10,
+    "suit": "swords",
+    "keywords": [
+      "painful ending",
+      "hitting bottom",
+      "release"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Ten of Swords marks a painful low point. From here, the only way is up.",
+        "reversed": "Reversed, the Ten of Swords suggests a slow recovery. Each small step rebuilds your strength."
+      },
+      "career": {
+        "upright": "The Ten of Swords marks a painful ending at work, such as a project failing or a role coming to a close. It is a low point, and the only direction from here is up.",
+        "reversed": "Reversed, the Ten of Swords suggests recovery after a difficult ending. Release what is over so you can rebuild."
+      },
+      "relationship": {
+        "upright": "In love, the Ten of Swords may point to a painful ending or feeling deeply let down. Allow the chapter to close, as renewal follows.",
+        "reversed": "Reversed, the Ten of Swords may show you slowly healing after a relationship has ended. Each day brings a little more strength."
+      },
+      "family": {
+        "upright": "The Ten of Swords highlights a hard time in family life or a painful realisation. Support each other, as things will improve.",
+        "reversed": "Reversed, the Ten of Swords may show the family beginning to rebuild after a crisis. Small steps forward bring hope."
+      }
+    }
+  },
+  {
+    "id": "page-of-swords",
+    "name": "Page of Swords",
+    "arcana": "minor",
+    "number": 11,
+    "suit": "swords",
+    "keywords": [
+      "curiosity",
+      "vigilance",
+      "new ideas"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Page of Swords brings curiosity and an eagerness to learn. Feed your mind with new ideas.",
+        "reversed": "Reversed, the Page of Swords suggests scattered thoughts. Focus your attention on one thing at a time."
+      },
+      "career": {
+        "upright": "The Page of Swords brings curiosity, new ideas and an eagerness to learn. Ask questions, gather information and stay alert to opportunities.",
+        "reversed": "Reversed, the Page of Swords suggests gossip, scattered thinking or speaking before thinking. Check your facts and choose your words with care."
+      },
+      "relationship": {
+        "upright": "In love, the Page of Swords brings lively conversation and a curious mind. Getting to know someone through honest talk is favoured.",
+        "reversed": "Reversed, the Page of Swords may point to defensiveness, sharp remarks or mixed messages. Clear, kind communication helps."
+      },
+      "family": {
+        "upright": "The Page of Swords highlights an inquisitive family member, or the need for clear information. Open discussion keeps everyone informed.",
+        "reversed": "Reversed, the Page of Swords may show gossip or misunderstandings at home. Go straight to the source before drawing conclusions."
+      }
+    }
+  },
+  {
+    "id": "knight-of-swords",
+    "name": "Knight of Swords",
+    "arcana": "minor",
+    "number": 12,
+    "suit": "swords",
+    "keywords": [
+      "haste",
+      "ambition",
+      "direct action"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Knight of Swords brings drive and decisive thinking. Act on your convictions, with care.",
+        "reversed": "Reversed, the Knight of Swords suggests impatience or rash decisions. Slow down before you act."
+      },
+      "career": {
+        "upright": "The Knight of Swords brings ambition, speed and decisive action. Charge towards your goals, but make sure your plan is sound.",
+        "reversed": "Reversed, the Knight of Swords suggests rushing, impatience or pushing past other people. Slow down to avoid costly mistakes."
+      },
+      "relationship": {
+        "upright": "In love, the Knight of Swords brings directness and fast-moving developments. Honest, bold communication can move things forward.",
+        "reversed": "Reversed, the Knight of Swords may point to impulsive words, or someone pushing too hard. Patience protects the relationship."
+      },
+      "family": {
+        "upright": "The Knight of Swords highlights quick decisions or a strong-minded family member. Directness can solve problems when it is paired with tact.",
+        "reversed": "Reversed, the Knight of Swords may show arguments flaring up, or decisions made without asking others. Take a breath and include everyone."
+      }
+    }
+  },
+  {
+    "id": "queen-of-swords",
+    "name": "Queen of Swords",
+    "arcana": "minor",
+    "number": 13,
+    "suit": "swords",
+    "keywords": [
+      "clear boundaries",
+      "honesty",
+      "independence"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Queen of Swords brings clear boundaries and honest self-awareness. Speak your truth kindly.",
+        "reversed": "Reversed, the Queen of Swords suggests being harsh with yourself. Balance clarity with compassion."
+      },
+      "career": {
+        "upright": "The Queen of Swords brings clear judgement, honesty and independence at work. Set firm boundaries and communicate directly.",
+        "reversed": "Reversed, the Queen of Swords suggests coldness, harsh criticism or isolating yourself. Balance clarity with compassion."
+      },
+      "relationship": {
+        "upright": "In love, the Queen of Swords brings honesty, clear boundaries and independence. Healthy relationships respect both people's autonomy.",
+        "reversed": "Reversed, the Queen of Swords may point to bitterness, defensiveness or emotional distance. Letting your guard down a little invites closeness."
+      },
+      "family": {
+        "upright": "The Queen of Swords highlights someone who brings fairness and clear thinking to the family. Honest advice, kindly given, is valued.",
+        "reversed": "Reversed, the Queen of Swords may show criticism or coolness creating distance at home. Softening your words helps them be heard."
+      }
+    }
+  },
+  {
+    "id": "king-of-swords",
+    "name": "King of Swords",
+    "arcana": "minor",
+    "number": 14,
+    "suit": "swords",
+    "keywords": [
+      "authority",
+      "intellect",
+      "fair judgement"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The King of Swords brings clear thinking and fair self-judgement. Trust your reasoning.",
+        "reversed": "Reversed, the King of Swords suggests rigid thinking. Let your feelings inform your logic."
+      },
+      "career": {
+        "upright": "The King of Swords brings authority, intellect and fair judgement. Decisions grounded in logic and ethics are favoured now.",
+        "reversed": "Reversed, the King of Swords suggests misused authority, rigid thinking or manipulation. Check that power is being used fairly, including your own."
+      },
+      "relationship": {
+        "upright": "In love, the King of Swords brings clear communication and a fair, principled partner. Respect and honesty form a strong foundation.",
+        "reversed": "Reversed, the King of Swords may point to coldness or controlling behaviour in love. Emotional warmth matters as much as being right."
+      },
+      "family": {
+        "upright": "The King of Swords highlights wise counsel and fair decisions in the family. Someone's clear thinking can help settle disputes.",
+        "reversed": "Reversed, the King of Swords may show harsh judgement or rigid rules at home. Listening with an open mind restores balance."
+      }
+    }
+  },
+  {
+    "id": "ace-of-pentacles",
+    "name": "Ace of Pentacles",
+    "arcana": "minor",
+    "number": 1,
+    "suit": "pentacles",
+    "keywords": [
+      "opportunity",
+      "prosperity",
+      "new resources"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Ace of Pentacles brings a fresh start for your wellbeing or stability. Plant seeds for long-term growth.",
+        "reversed": "Reversed, the Ace of Pentacles suggests a missed chance or shaky foundations. Strengthen your basics first."
+      },
+      "career": {
+        "upright": "The Ace of Pentacles brings a new opportunity, such as a job offer, a raise or a business idea with real potential. Grounded effort can turn it into lasting success.",
+        "reversed": "Reversed, the Ace of Pentacles suggests a missed opportunity or plans that need firmer footing. Review your finances and plans before committing."
+      },
+      "relationship": {
+        "upright": "In love, the Ace of Pentacles brings a stable, promising new beginning. Practical commitment helps the relationship grow solid roots.",
+        "reversed": "Reversed, the Ace of Pentacles may point to a relationship lacking a firm foundation, or money worries affecting love. Focus on building security together."
+      },
+      "family": {
+        "upright": "The Ace of Pentacles highlights new resources or security for the family, such as a home or a financial gain. It is a good time to invest in the future.",
+        "reversed": "Reversed, the Ace of Pentacles may show family finances needing more care. Prudent choices now prevent stress later."
+      }
+    }
+  },
+  {
+    "id": "two-of-pentacles",
+    "name": "Two of Pentacles",
+    "arcana": "minor",
+    "number": 2,
+    "suit": "pentacles",
+    "keywords": [
+      "balance",
+      "adaptability",
+      "juggling priorities"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Two of Pentacles shows you juggling many demands. Flexibility helps you keep your balance.",
+        "reversed": "Reversed, the Two of Pentacles suggests being stretched too thin. Simplify your commitments."
+      },
+      "career": {
+        "upright": "The Two of Pentacles shows you juggling tasks, priorities or sources of income. Flexibility helps you keep everything in balance.",
+        "reversed": "Reversed, the Two of Pentacles suggests being overextended or dropping the ball. Simplify your commitments and decide what comes first."
+      },
+      "relationship": {
+        "upright": "In love, the Two of Pentacles may point to balancing a relationship with a busy life. Making time for each other keeps things steady.",
+        "reversed": "Reversed, the Two of Pentacles may show a relationship pushed aside by other demands. Rebalance your priorities so love doesn't come last."
+      },
+      "family": {
+        "upright": "The Two of Pentacles highlights juggling family responsibilities and finances. Adaptability helps the household run smoothly.",
+        "reversed": "Reversed, the Two of Pentacles may show the family stretched too thin. Sharing tasks and budgeting carefully restores balance."
+      }
+    }
+  },
+  {
+    "id": "three-of-pentacles",
+    "name": "Three of Pentacles",
+    "arcana": "minor",
+    "number": 3,
+    "suit": "pentacles",
+    "keywords": [
+      "teamwork",
+      "craftsmanship",
+      "collaboration"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Three of Pentacles highlights learning and building skills. Growth comes from steady practice.",
+        "reversed": "Reversed, the Three of Pentacles suggests feeling unrecognised or unsure of your abilities. Value the progress you have made."
+      },
+      "career": {
+        "upright": "The Three of Pentacles brings teamwork, skill and recognition for good work. Collaborating with others builds something better than you could alone.",
+        "reversed": "Reversed, the Three of Pentacles suggests poor teamwork, misaligned goals or work that isn't valued. Clarify roles and expectations."
+      },
+      "relationship": {
+        "upright": "In love, the Three of Pentacles shows a relationship built through shared effort. Working on a joint project can bring you closer.",
+        "reversed": "Reversed, the Three of Pentacles may point to not pulling together, or uneven effort. Discuss how each of you can contribute."
+      },
+      "family": {
+        "upright": "The Three of Pentacles highlights family members working together, perhaps on a home project. Each person's skills add to the whole.",
+        "reversed": "Reversed, the Three of Pentacles may show disagreements over how things should be done at home. Respecting each other's input helps."
+      }
+    }
+  },
+  {
+    "id": "four-of-pentacles",
+    "name": "Four of Pentacles",
+    "arcana": "minor",
+    "number": 4,
+    "suit": "pentacles",
+    "keywords": [
+      "security",
+      "control",
+      "holding on"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Four of Pentacles points to holding on tightly for a sense of security. Ask whether that control is still serving you.",
+        "reversed": "Reversed, the Four of Pentacles suggests loosening your grip. Openness can bring relief."
+      },
+      "career": {
+        "upright": "The Four of Pentacles points to financial security and holding tightly to what you have. Stability is good, but too much caution may limit growth.",
+        "reversed": "Reversed, the Four of Pentacles suggests loosening your grip, whether by spending, sharing or taking a measured risk. Balance generosity with prudence."
+      },
+      "relationship": {
+        "upright": "In love, the Four of Pentacles may point to possessiveness or holding back emotionally. Security grows when you allow some openness.",
+        "reversed": "Reversed, the Four of Pentacles may show you letting go of control or fear in a relationship. Openness invites deeper trust."
+      },
+      "family": {
+        "upright": "The Four of Pentacles highlights protecting family resources and stability. Make sure caution doesn't turn into rigidity.",
+        "reversed": "Reversed, the Four of Pentacles may show tension over money or possessions in the family. Open discussion about shared resources helps."
+      }
+    }
+  },
+  {
+    "id": "five-of-pentacles",
+    "name": "Five of Pentacles",
+    "arcana": "minor",
+    "number": 5,
+    "suit": "pentacles",
+    "keywords": [
+      "hardship",
+      "insecurity",
+      "feeling left out"
+    ],
+    "tone": "challenging",
+    "meanings": {
+      "self": {
+        "upright": "The Five of Pentacles points to feeling left out or insecure. Reach out for support, because you are not alone.",
+        "reversed": "Reversed, the Five of Pentacles suggests recovery and renewed hope. Things are slowly improving."
+      },
+      "career": {
+        "upright": "The Five of Pentacles points to financial strain, job insecurity or feeling left out at work. Help may be closer than you think if you ask for it.",
+        "reversed": "Reversed, the Five of Pentacles suggests recovery from hardship as things start to improve. Accept support and keep moving forward."
+      },
+      "relationship": {
+        "upright": "In love, the Five of Pentacles may point to feeling neglected, or facing hard times together. Leaning on each other can strengthen your bond.",
+        "reversed": "Reversed, the Five of Pentacles may show a relationship coming through a difficult period. Warmth and reassurance help you recover."
+      },
+      "family": {
+        "upright": "The Five of Pentacles highlights financial or emotional hardship in the family. Reaching out for support, from within or outside, eases the strain.",
+        "reversed": "Reversed, the Five of Pentacles may show family circumstances beginning to improve. Gratitude and mutual support carry you through."
+      }
+    }
+  },
+  {
+    "id": "six-of-pentacles",
+    "name": "Six of Pentacles",
+    "arcana": "minor",
+    "number": 6,
+    "suit": "pentacles",
+    "keywords": [
+      "generosity",
+      "giving and receiving",
+      "fairness"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Six of Pentacles reflects balance between giving and receiving. Let yourself accept help as well as offer it.",
+        "reversed": "Reversed, the Six of Pentacles suggests an imbalance in how you spend your energy. Restore fairness toward yourself."
+      },
+      "career": {
+        "upright": "The Six of Pentacles brings generosity, fair exchange and support at work. Mentoring others or receiving help can benefit everyone.",
+        "reversed": "Reversed, the Six of Pentacles suggests uneven exchanges, strings attached or giving more than you can afford. Check that arrangements are fair."
+      },
+      "relationship": {
+        "upright": "In love, the Six of Pentacles brings a balanced give and take. Generosity and appreciation keep the relationship healthy.",
+        "reversed": "Reversed, the Six of Pentacles may point to imbalance, with one partner giving far more. Talk openly about what each of you needs."
+      },
+      "family": {
+        "upright": "The Six of Pentacles highlights generosity and support within the family. Giving and receiving help strengthens your bonds.",
+        "reversed": "Reversed, the Six of Pentacles may show resentment over who gives and who takes. Setting fair expectations restores goodwill."
+      }
+    }
+  },
+  {
+    "id": "seven-of-pentacles",
+    "name": "Seven of Pentacles",
+    "arcana": "minor",
+    "number": 7,
+    "suit": "pentacles",
+    "keywords": [
+      "patience",
+      "long-term view",
+      "assessment"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Seven of Pentacles asks for patience with your personal growth. The results are coming.",
+        "reversed": "Reversed, the Seven of Pentacles suggests frustration with slow progress. Adjust your approach rather than giving up."
+      },
+      "career": {
+        "upright": "The Seven of Pentacles asks for patience as your long-term efforts grow. Assess your progress and decide where to invest your energy next.",
+        "reversed": "Reversed, the Seven of Pentacles suggests frustration with slow results, or effort that isn't paying off. Reconsider your approach rather than simply working harder."
+      },
+      "relationship": {
+        "upright": "In love, the Seven of Pentacles shows a relationship that grows with patience and care. Take stock of what you have built together.",
+        "reversed": "Reversed, the Seven of Pentacles may point to impatience, or doubts about whether a relationship is worth the effort. Honest reflection helps you decide."
+      },
+      "family": {
+        "upright": "The Seven of Pentacles highlights long-term family investments, from savings to raising children. Patience will bring its rewards.",
+        "reversed": "Reversed, the Seven of Pentacles may show frustration that family efforts aren't paying off yet. Adjusting your expectations can bring peace."
+      }
+    }
+  },
+  {
+    "id": "eight-of-pentacles",
+    "name": "Eight of Pentacles",
+    "arcana": "minor",
+    "number": 8,
+    "suit": "pentacles",
+    "keywords": [
+      "diligence",
+      "skill-building",
+      "mastery"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Eight of Pentacles highlights dedication and self-improvement. Steady effort builds mastery.",
+        "reversed": "Reversed, the Eight of Pentacles suggests perfectionism or burnout. Progress matters more than perfection."
+      },
+      "career": {
+        "upright": "The Eight of Pentacles brings diligence, skill-building and dedication to your craft. Steady practice leads to mastery.",
+        "reversed": "Reversed, the Eight of Pentacles suggests perfectionism, boredom or cutting corners. Reconnect with why the work matters to you."
+      },
+      "relationship": {
+        "upright": "In love, the Eight of Pentacles shows a commitment to working on the relationship. Small, consistent efforts build something lasting.",
+        "reversed": "Reversed, the Eight of Pentacles may point to work crowding out your relationship. Make time for each other as well as for your goals."
+      },
+      "family": {
+        "upright": "The Eight of Pentacles highlights hard work for the family's wellbeing, such as learning new skills or improving the home. Your effort is an investment in everyone.",
+        "reversed": "Reversed, the Eight of Pentacles may show someone working so hard that family time suffers. Balance effort with being present."
+      }
+    }
+  },
+  {
+    "id": "nine-of-pentacles",
+    "name": "Nine of Pentacles",
+    "arcana": "minor",
+    "number": 9,
+    "suit": "pentacles",
+    "keywords": [
+      "self-sufficiency",
+      "comfort",
+      "reward"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Nine of Pentacles brings self-sufficiency and comfort. Enjoy what you have built for yourself.",
+        "reversed": "Reversed, the Nine of Pentacles suggests overworking or insecurity. Reassess what independence means to you."
+      },
+      "career": {
+        "upright": "The Nine of Pentacles brings self-sufficiency, comfort and the rewards of hard work. Enjoy your independence and the success you have earned.",
+        "reversed": "Reversed, the Nine of Pentacles suggests overworking, a financial setback or a sense that success is not enough. Reassess what independence means to you."
+      },
+      "relationship": {
+        "upright": "In love, the Nine of Pentacles shows confidence and self-worth that make you a strong partner. You can enjoy love without depending on it.",
+        "reversed": "Reversed, the Nine of Pentacles may point to valuing independence so much that intimacy suffers. Let someone share your world."
+      },
+      "family": {
+        "upright": "The Nine of Pentacles highlights comfort, security and a home you have worked to create. Take time to enjoy it.",
+        "reversed": "Reversed, the Nine of Pentacles may show material comfort without emotional connection at home. Shared moments matter more than things."
+      }
+    }
+  },
+  {
+    "id": "ten-of-pentacles",
+    "name": "Ten of Pentacles",
+    "arcana": "minor",
+    "number": 10,
+    "suit": "pentacles",
+    "keywords": [
+      "legacy",
+      "family wealth",
+      "lasting security"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Ten of Pentacles reflects lasting security and a sense of legacy. Your efforts are creating a stable foundation.",
+        "reversed": "Reversed, the Ten of Pentacles suggests instability, or pressure from other people's expectations. Define success on your own terms."
+      },
+      "career": {
+        "upright": "The Ten of Pentacles brings lasting success, stability and legacy at work. Long-term planning and established institutions are favoured.",
+        "reversed": "Reversed, the Ten of Pentacles suggests financial instability or conflict over long-term plans. Secure the foundations before you expand."
+      },
+      "relationship": {
+        "upright": "In love, the Ten of Pentacles brings long-term commitment and building a secure life together. Shared plans for the future are favoured.",
+        "reversed": "Reversed, the Ten of Pentacles may point to disagreements about money, family or the future. Aligning your long-term values helps."
+      },
+      "family": {
+        "upright": "The Ten of Pentacles is a card of family wealth, tradition and lasting security. Generations come together in support of one another.",
+        "reversed": "Reversed, the Ten of Pentacles may show disputes over inheritance or family money. Clear agreements protect relationships."
+      }
+    }
+  },
+  {
+    "id": "page-of-pentacles",
+    "name": "Page of Pentacles",
+    "arcana": "minor",
+    "number": 11,
+    "suit": "pentacles",
+    "keywords": [
+      "study",
+      "ambition",
+      "practical opportunity"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Page of Pentacles brings a practical new opportunity to learn. Commit to small, steady steps.",
+        "reversed": "Reversed, the Page of Pentacles suggests procrastination. Begin with one small task today."
+      },
+      "career": {
+        "upright": "The Page of Pentacles brings study, new skills and a practical opportunity. Commit to learning and set realistic goals.",
+        "reversed": "Reversed, the Page of Pentacles suggests procrastination or a lack of follow-through. Small, consistent steps keep you on track."
+      },
+      "relationship": {
+        "upright": "In love, the Page of Pentacles brings a sincere, steady approach to romance. Taking things slowly helps build a strong foundation.",
+        "reversed": "Reversed, the Page of Pentacles may point to hesitation or too little effort in love. Show your interest through consistent action."
+      },
+      "family": {
+        "upright": "The Page of Pentacles highlights a young family member's studies, or good news about practical matters. Encouragement helps them grow.",
+        "reversed": "Reversed, the Page of Pentacles may show plans at home stalling for lack of follow-through. Gentle reminders and support can help."
+      }
+    }
+  },
+  {
+    "id": "knight-of-pentacles",
+    "name": "Knight of Pentacles",
+    "arcana": "minor",
+    "number": 12,
+    "suit": "pentacles",
+    "keywords": [
+      "reliability",
+      "routine",
+      "steady progress"
+    ],
+    "tone": "neutral",
+    "meanings": {
+      "self": {
+        "upright": "The Knight of Pentacles brings reliability and steady progress. Consistency is your strength.",
+        "reversed": "Reversed, the Knight of Pentacles suggests feeling stuck in a routine. A small change can refresh you."
+      },
+      "career": {
+        "upright": "The Knight of Pentacles brings reliability, hard work and steady progress. Slow, methodical effort will get you there.",
+        "reversed": "Reversed, the Knight of Pentacles suggests stagnation, boredom or being stuck in a rut. Try a new approach to regain momentum."
+      },
+      "relationship": {
+        "upright": "In love, the Knight of Pentacles brings a dependable, loyal partner and steady commitment. Consistency builds deep trust.",
+        "reversed": "Reversed, the Knight of Pentacles may point to a relationship that feels routine or unexciting. A little spontaneity can bring it back to life."
+      },
+      "family": {
+        "upright": "The Knight of Pentacles highlights a reliable family member who gets things done. Steady routines bring security at home.",
+        "reversed": "Reversed, the Knight of Pentacles may show stubbornness or resistance to change at home. Openness to new ways keeps family life fresh."
+      }
+    }
+  },
+  {
+    "id": "queen-of-pentacles",
+    "name": "Queen of Pentacles",
+    "arcana": "minor",
+    "number": 13,
+    "suit": "pentacles",
+    "keywords": [
+      "nurturing",
+      "practicality",
+      "comfort"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The Queen of Pentacles brings practical self-care and comfort. Nurture your body and your home.",
+        "reversed": "Reversed, the Queen of Pentacles suggests neglecting your own needs while caring for others. Look after yourself too."
+      },
+      "career": {
+        "upright": "The Queen of Pentacles brings practical wisdom, resourcefulness and nurturing leadership. Balancing work with care for yourself and others brings success.",
+        "reversed": "Reversed, the Queen of Pentacles suggests an imbalance between work and home, or neglected self-care. Make sure you are looking after yourself too."
+      },
+      "relationship": {
+        "upright": "In love, the Queen of Pentacles brings warmth, generosity and a nurturing, grounded partner. Creating a comfortable shared life strengthens the bond.",
+        "reversed": "Reversed, the Queen of Pentacles may point to smothering care, or the relationship being neglected for other duties. Restore the balance between giving and receiving."
+      },
+      "family": {
+        "upright": "The Queen of Pentacles highlights a nurturing, capable presence who keeps the home running. Practical care makes everyone feel secure.",
+        "reversed": "Reversed, the Queen of Pentacles may show someone overwhelmed by household responsibilities. Sharing the load helps."
+      }
+    }
+  },
+  {
+    "id": "king-of-pentacles",
+    "name": "King of Pentacles",
+    "arcana": "minor",
+    "number": 14,
+    "suit": "pentacles",
+    "keywords": [
+      "abundance",
+      "stability",
+      "leadership"
+    ],
+    "tone": "supportive",
+    "meanings": {
+      "self": {
+        "upright": "The King of Pentacles brings stability and confidence in your resources. You have built something solid.",
+        "reversed": "Reversed, the King of Pentacles suggests valuing security over joy. Balance stability with pleasure."
+      },
+      "career": {
+        "upright": "The King of Pentacles brings success, financial security and steady leadership. Your experience and reliability are valued now.",
+        "reversed": "Reversed, the King of Pentacles suggests materialism, poor financial decisions or rigid control. Success means little without balance."
+      },
+      "relationship": {
+        "upright": "In love, the King of Pentacles brings a stable, generous and protective partner. Security and loyalty form the core of the relationship.",
+        "reversed": "Reversed, the King of Pentacles may point to valuing status or money over feelings. Show love through presence, not only provision."
+      },
+      "family": {
+        "upright": "The King of Pentacles highlights a provider who brings stability and abundance to the family. Wise financial choices benefit everyone.",
+        "reversed": "Reversed, the King of Pentacles may show financial strain, or tight control over family resources. Open, fair conversations about money ease tension."
+      }
+    }
+  }
+]
