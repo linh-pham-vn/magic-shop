@@ -12,7 +12,10 @@ npm install
 npm run dev      # local dev server
 npm test         # unit tests (Vitest)
 npm run build    # typecheck + static build into dist/
+npm run deploy   # build and publish to GitHub Pages
 ```
+
+Live at https://linh-pham-vn.github.io/magic-shop/
 
 ## How it works
 
